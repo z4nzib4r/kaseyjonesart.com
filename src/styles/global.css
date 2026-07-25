@@ -186,6 +186,12 @@ main {
   max-width: 62ch;
 }
 
+/* Portraits on text pages read as a headshot, not a banner. */
+.prose img {
+  max-width: 260px;
+  margin: 0 0 1.75rem;
+}
+
 .prose h1 {
   font-size: 1.3rem;
   font-weight: 500;
