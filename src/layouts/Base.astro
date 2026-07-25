@@ -1,0 +1,55 @@
+---
+import { SITE } from '../consts';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description = SITE.description } = Astro.props;
+const pageTitle = title ? `${title} — ${SITE.artist}` : SITE.artist;
+const path = Astro.url.pathname;
+
+const nav = [
+  { href: '/', label: 'Work' },
+  { href: '/about/', label: 'About' },
+  { href: '/cv/', label: 'CV' },
+  { href: '/contact/', label: 'Contact' },
+];
+
+const isActive = (href: string) =>
+  href === '/' ? path === '/' || path.startsWith('/work/') : path.startsWith(href);
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href={new URL(path, Astro.site)} />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="/">{SITE.artist}</a>
+      <nav>
+        {nav.map(({ href, label }) => (
+          <a href={href} aria-current={isActive(href) ? 'page' : undefined}>{label}</a>
+        ))}
+      </nav>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <p>© {new Date().getFullYear()} {SITE.artist}</p>
+      <p><a href={SITE.instagram} target="_blank" rel="noopener">Instagram</a></p>
+    </footer>
+  </body>
+</html>

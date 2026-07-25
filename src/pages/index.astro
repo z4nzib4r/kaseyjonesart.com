@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+
+const artworks = (await getCollection('artworks')).sort(
+  (a, b) => a.data.order - b.data.order || b.data.year - a.data.year
+);
+---
+
+<Base>
+  <ul class="gallery">
+    {artworks.map((work) => (
+      <li>
+        <a href={`/work/${work.id}/`}>
+          <Image
+            src={work.data.cover}
+            alt={`${work.data.title}, ${work.data.year}`}
+            widths={[400, 800, 1200]}
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          />
+          <p class="caption">{work.data.title}, {work.data.year}</p>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Base>

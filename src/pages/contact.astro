@@ -1,0 +1,13 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../consts';
+---
+
+<Base title="Contact">
+  <div class="prose">
+    <h1>Contact</h1>
+    <p>For inquiries about available work, commissions, or exhibitions:</p>
+    <p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+    <p><a href={SITE.instagram} target="_blank" rel="noopener">Instagram</a></p>
+  </div>
+</Base>
