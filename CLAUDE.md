@@ -18,6 +18,19 @@ Kasey works in Claude Code on the web (claude.ai/code) with this repo connected.
 - **Ask before, not after.** Since there's no preview, the conversation is where ambiguity gets resolved. If her request is unclear, ask — in her terms ("Should the new piece go at the top of the gallery or the bottom?"). Once you're sure what she wants, make the complete change and put it live; never publish a half-finished state.
 - Content changes and modest style tweaks are yours to handle. If she asks for something structurally big (new page types, redesign, shop), do a conservative version if you safely can, and suggest she loop in Jacob for the rest.
 
+## Temporary: the coming-soon page is up
+
+**While this section exists, the public home page is a holding page** — a wordmark and "a new site is on the way," nothing else. Kasey's site is still there and still updates normally; it's just unlinked while she reworks it.
+
+What this changes for her:
+
+- **The gallery lives at kaseyjonesart.com/preview/ for now.** When you tell her where to see a change (routine step 5), point her there — "your gallery is at kaseyjonesart.com/preview/ while the coming-soon page is up" — not at kaseyjonesart.com, which will show the holding page.
+- Everything else — About, CV, Contact, and each work's own page — is at its usual address and looks normal.
+- Search engines are told to skip the in-progress pages, so new work won't show up in Google until the site relaunches. That's deliberate, not a bug.
+- Nothing about how she edits changes: same requests, same routine, same publishing.
+
+Taking the holding page down is Jacob's call, not something to do because Kasey says she's finished — tell her you'll loop him in. (For Jacob: flip `COMING_SOON` to `false` in `src/consts.ts`, then delete this section.)
+
 ## The routine for every change
 
 1. Make the edit.
@@ -27,7 +40,7 @@ Kasey works in Claude Code on the web (claude.ai/code) with this repo connected.
    - Bad: `Update index.astro`, `Fix frontmatter`
    - End every commit message with: `Co-Authored-By: Claude <noreply@anthropic.com>`
 4. Push: `git push origin main`. There is no preview step — publishing is how Kasey sees her change, so push as soon as the build passes and the change is complete.
-5. Tell her in plain words what changed and that the site will show it at kaseyjonesart.com in about two minutes (refresh with Cmd+Shift+R if it looks stale). If it still hasn't updated after a few minutes: check the deploy with `gh run list --limit 3` if `gh` works in this session; otherwise, if it stays wrong, that's a "loop in Jacob" moment.
+5. Tell her in plain words what changed and that the site will show it at kaseyjonesart.com in about two minutes (while the coming-soon page is up, send her to kaseyjonesart.com/preview/ for the gallery — see the section above) (refresh with Cmd+Shift+R if it looks stale). If it still hasn't updated after a few minutes: check the deploy with `gh run list --limit 3` if `gh` works in this session; otherwise, if it stays wrong, that's a "loop in Jacob" moment.
 6. If she sees it live and doesn't like it, that's an undo (below) — reverted and pushed right away, same flow.
 
 ## Undo and rollback
