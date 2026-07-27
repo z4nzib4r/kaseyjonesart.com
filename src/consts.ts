@@ -8,3 +8,11 @@ export const SITE = {
   instagram: 'https://www.instagram.com/kaseyjonesart/',
   // shopUrl: 'https://...', // uncomment when the shop exists
 };
+
+// Temporary holding page while the site is being reworked.
+//   true  — "/" is the coming-soon landing, the rest of the site still builds
+//           at its normal URLs but is unlinked and noindexed, and the gallery
+//           is previewable at /preview/.
+//   false — normal site: "/" is the gallery again and /preview/ stops existing.
+// Flipping this back to false is the only step needed to relaunch.
+export const COMING_SOON = true;

@@ -1,25 +1,33 @@
 ---
-import { SITE } from '../consts';
+import { COMING_SOON, SITE } from '../consts';
 import '../styles/global.css';
 
 interface Props {
   title?: string;
   description?: string;
+  // Strips the header and footer for a standalone page (the coming-soon landing).
+  bare?: boolean;
 }
 
-const { title, description = SITE.description } = Astro.props;
+const { title, description = SITE.description, bare = false } = Astro.props;
 const pageTitle = title ? `${title} — ${SITE.artist}` : SITE.artist;
 const path = Astro.url.pathname;
 
+// While the landing page sits on "/", the rest of the site is still reachable
+// but unlisted: keep it out of search results and point the header at the
+// gallery's temporary home.
+const noindex = COMING_SOON && path !== '/';
+const home = COMING_SOON ? '/preview/' : '/';
+
 const nav = [
-  { href: '/', label: 'Work' },
+  { href: home, label: 'Work' },
   { href: '/about/', label: 'About' },
   { href: '/cv/', label: 'CV' },
   { href: '/contact/', label: 'Contact' },
 ];
 
 const isActive = (href: string) =>
-  href === '/' ? path === '/' || path.startsWith('/work/') : path.startsWith(href);
+  href === home ? path === home || path.startsWith('/work/') : path.startsWith(href);
 ---
 
 <html lang="en">
@@ -32,24 +40,29 @@ const isActive = (href: string) =>
     <meta property="og:description" content={description} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="canonical" href={new URL(path, Astro.site)} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
   </head>
-  <body>
-    <header class="site-header">
-      <a class="wordmark" href="/">{SITE.artist}</a>
-      <nav>
-        {nav.map(({ href, label }) => (
-          <a href={href} aria-current={isActive(href) ? 'page' : undefined}>{label}</a>
-        ))}
-      </nav>
-    </header>
+  <body class={bare ? 'bare' : undefined}>
+    {!bare && (
+      <header class="site-header">
+        <a class="wordmark" href={home}>{SITE.artist}</a>
+        <nav>
+          {nav.map(({ href, label }) => (
+            <a href={href} aria-current={isActive(href) ? 'page' : undefined}>{label}</a>
+          ))}
+        </nav>
+      </header>
+    )}
 
     <main>
       <slot />
     </main>
 
-    <footer class="site-footer">
-      <p>© {new Date().getFullYear()} {SITE.artist}</p>
-      <p><a href={SITE.instagram} target="_blank" rel="noopener">Instagram</a></p>
-    </footer>
+    {!bare && (
+      <footer class="site-footer">
+        <p>© {new Date().getFullYear()} {SITE.artist}</p>
+        <p><a href={SITE.instagram} target="_blank" rel="noopener">Instagram</a></p>
+      </footer>
+    )}
   </body>
 </html>
