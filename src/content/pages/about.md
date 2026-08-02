@@ -4,9 +4,7 @@ title: About
 
 ![Kasey Jones, photographed outdoors against green summer foliage](./kasey-jones.jpg)
 
-My work is fueled by a need to connect with people, and I use my artistic voice as a means of civic duty. I create large-scale, participatory and public projects alongside personal work that responds to the social and environmental injustices that impact my life and the lives of others.
-
-As an interdisciplinary artist my approach is rooted in the exploration of material. By having an open-ended view of what materials I can use, my art making process is constantly being pushed by the varying limitations each material may have. My exploration of media has led me to develop bodies of work in murals, sculpture, painting, photography, living sculptures, audio, video, music, light and textiles.
+As an interdisciplinary artist my approach is rooted in the exploration of material, and I create large-scale, participatory and public projects alongside personal work that responds to the social and environmental injustices that impact my life and the lives of others. By having an open-ended view of what materials I can use, my art making process is constantly being pushed by the varying limitations each material may have. My exploration of media has led me to develop bodies of work in murals, sculpture, painting, photography, living sculptures, audio, video, music, light and textiles.
 
 Whatever the medium, my practice is grounded in intentional design. I am looking at composition, color, line, and contrast in conjunction with content, and at how people will move through, interact with, and visually experience the work. I love ideation and the beginning stages of design — thinking up the big idea — and then seeing it through with a precise, focused eye.
 
