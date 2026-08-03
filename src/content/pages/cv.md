@@ -61,6 +61,7 @@ title: CV
 
 ## Group Exhibitions
 
+- 2026 — *Uncensored*, Raw Gallery, Columbus, OH
 - 2023 — *Maternal Interior*, Ann Arbor Art Center, Ann Arbor, MI
 - 2021 — *Hocking College Faculty, Alumni, and Student Exhibition*, Majestic Gallery, Nelsonville, OH
 - 2021 — *Women's History Month Art Exhibition*, John Light Gallery, Nelsonville, OH
