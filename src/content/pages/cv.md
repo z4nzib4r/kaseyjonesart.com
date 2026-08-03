@@ -49,6 +49,16 @@ title: CV
 - 2009 — Harold Oliver Primary Elementary School, Portland, OR — mural
 - 2009 — Excelsior Academy, San Diego, CA — mural
 
+## Solo Exhibitions
+
+- 2022 — *Kasey Jones: 2016–2022*, The Dairy Barn Arts Center, Athens, OH
+- 2016 — *Bodily Push*, Jackie O's Taproom, Athens, OH
+- 2014 — *30 & 3*, Maryland Institute College of Art, Baltimore, MD
+- 2013 — *The Power of Symbols*, Maryland Institute College of Art, Baltimore, MD
+- 2012 — *Mindscapes*, Casa Cantina, Athens, OH
+- 2011 — *Your Perspective*, Athens Public Library, Athens, OH
+- 2010 — *Abstractions*, San Diego Repertory Theater, San Diego, CA
+
 ## Group Exhibitions
 
 - 2023 — *Maternal Interior*, Ann Arbor Art Center, Ann Arbor, MI
@@ -70,16 +80,6 @@ title: CV
 - 2012 — *New Beginnings*, Maryland Institute College of Art, Baltimore, MD
 - 2011 — *Women of Appalachia*, Ohio University Multicultural Gallery, Athens, OH
 - 2011 — *Mid-Year Exhibition*, Rhodes Tower, Columbus, OH
-
-## Solo Exhibitions
-
-- 2022 — *Kasey Jones: 2016–2022*, The Dairy Barn Arts Center, Athens, OH
-- 2016 — *Bodily Push*, Jackie O's Taproom, Athens, OH
-- 2014 — *30 & 3*, Maryland Institute College of Art, Baltimore, MD
-- 2013 — *The Power of Symbols*, Maryland Institute College of Art, Baltimore, MD
-- 2012 — *Mindscapes*, Casa Cantina, Athens, OH
-- 2011 — *Your Perspective*, Athens Public Library, Athens, OH
-- 2010 — *Abstractions*, San Diego Repertory Theater, San Diego, CA
 
 ## Publications
 
