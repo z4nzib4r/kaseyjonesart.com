@@ -35,4 +35,7 @@ I painted the four corners of the Amesville Elementary Running Club's route, so 
 ![Hand-drawn concept design of a yellow four-petaled celandine poppy inside a green border and a black-and-white striped circle](./03.jpg)
 *Concept design: celandine poppy*
 
+![Hand-drawn concept design of a lavender geranium blossom edged in magenta, with loose black ribbons curving around it](./09.jpg)
+*Concept design: geranium*
+
 </div>
