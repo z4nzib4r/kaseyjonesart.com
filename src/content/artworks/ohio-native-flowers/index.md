@@ -11,7 +11,7 @@ Commissioned by Creating Healthy Communities, a program of the Athens City-Count
 
 Asphalt art encourages drivers to slow down and stay alert for pedestrians and cyclists, the most vulnerable users of the road. It is also a placemaking strategy, a way for community members to create and revitalize their own public spaces.
 
-I painted the four corners of the Amesville Elementary Running Club's route, so the murals mark a point of local pride while making the streets safer for the students who run them. Each one features Ohio native flowers: trillium, celandine poppy, purple coneflower, and geranium.
+I painted the four corners of the Amesville Elementary Running Club's route, so the murals mark a point of local pride while making the streets safer for the students who run them. Each one features Ohio native flowers: Trillium, Celandine Poppy, Purple Coneflower, and Geranium.
 
 ![Circular street mural of a lavender geranium blossom ringed by magenta and black-and-white rippling stripes](./01.jpg)
 
@@ -24,18 +24,18 @@ I painted the four corners of the Amesville Elementary Running Club's route, so 
 <div class="sketch-row">
 
 ![Hand-drawn concept design of a white trillium outlined in red, with green leaves and black-and-white striped rings](./06.jpg)
-*Concept design: trillium*
+*Concept design: Trillium*
 
 ![The same trillium design drawn over a measured grid, with dimensions marked in the margins](./07.jpg)
 *Gridded to scale up onto the pavement*
 
 ![Hand-drawn concept design of a pink coneflower with a golden center, backed by teal and striped petals](./08.jpg)
-*Concept design: purple coneflower*
+*Concept design: Purple Coneflower*
 
 ![Hand-drawn concept design of a yellow four-petaled celandine poppy inside a green border and a black-and-white striped circle](./03.jpg)
-*Concept design: celandine poppy*
+*Concept design: Celandine Poppy*
 
 ![Hand-drawn concept design of a lavender geranium blossom edged in magenta, with loose black ribbons curving around it](./09.jpg)
-*Concept design: geranium*
+*Concept design: Geranium*
 
 </div>
