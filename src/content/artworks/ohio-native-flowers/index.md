@@ -16,3 +16,6 @@ I painted the four corners of the Amesville Elementary Running Club's route, so 
 ![Circular street mural of a white trillium with green leaves, ringed by red and black-and-white rippling stripes](./01.jpg)
 
 ![A circular flower mural painted at a village intersection, with houses and sidewalks beyond](./02.jpg)
+
+![Hand-drawn concept design of a yellow four-petaled celandine poppy inside a green border and a black-and-white striped circle](./03.jpg)
+*Concept design for the celandine poppy corner.*
