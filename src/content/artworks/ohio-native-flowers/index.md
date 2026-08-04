@@ -19,5 +19,16 @@ I painted the four corners of the Amesville Elementary Running Club's route, so 
 
 ![Overhead view of two people kneeling on the street painting the black outlines of the pink coneflower petals](./04.jpg)
 
+![A woman crouched on the white-primed trillium mural, brushing red paint along one of the outlines](./05.jpg)
+
+![Hand-drawn concept design of a white trillium outlined in red, with green leaves and black-and-white striped rings](./06.jpg)
+*Concept design for the trillium corner.*
+
+![The same trillium design drawn over a measured grid, with dimensions marked in the margins](./07.jpg)
+*The gridded drawing used to scale the design up onto the pavement.*
+
+![Hand-drawn concept design of a pink coneflower with a golden center, backed by teal and striped petals](./08.jpg)
+*Concept design for the purple coneflower corner.*
+
 ![Hand-drawn concept design of a yellow four-petaled celandine poppy inside a green border and a black-and-white striped circle](./03.jpg)
 *Concept design for the celandine poppy corner.*
