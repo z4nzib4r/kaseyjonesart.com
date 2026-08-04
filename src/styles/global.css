@@ -198,10 +198,11 @@ body.bare main {
   line-height: 1.75;
 }
 
-/* Markdown wraps a standalone image in a <p>; let those span full width. */
+/* Markdown wraps a standalone image in a <p>; give those a little more room
+   than the text, but keep them narrower than the full article width. */
 .article-body p:has(> img) {
-  max-width: none;
-  margin: 2.75rem 0;
+  max-width: 620px;
+  margin: 2.75rem auto;
 }
 
 /* A fully-italic line directly under an image reads as its caption. */
