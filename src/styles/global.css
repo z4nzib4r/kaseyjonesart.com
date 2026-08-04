@@ -213,35 +213,39 @@ body.bare main {
   text-align: center;
 }
 
-/* A row of small concept sketches: images on the top row, captions beneath. */
+/* A row of small concept sketches, each with its caption beneath it. */
 .article-body .sketch-row {
   display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
-  grid-template-rows: auto auto;
-  gap: 0.6rem 1.5rem;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem 1.25rem;
   margin: 3rem 0;
   align-items: start;
 }
 
 .article-body .sketch-row p,
-.article-body .sketch-row p:has(> img),
-.article-body .sketch-row p:has(> img) + p:has(> em:only-child) {
+.article-body .sketch-row p:has(> img) {
   max-width: none;
   margin: 0;
 }
 
-.article-body .sketch-row p:has(> em:only-child) {
+.article-body .sketch-row img {
+  display: block;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.article-body .sketch-row em {
+  display: block;
+  margin-top: 0.5rem;
   font-size: 0.75rem;
   line-height: 1.4;
   color: var(--muted);
   text-align: center;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 720px) {
   .article-body .sketch-row {
-    grid-template-rows: repeat(4, auto);
-    gap: 0.5rem 1.25rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
