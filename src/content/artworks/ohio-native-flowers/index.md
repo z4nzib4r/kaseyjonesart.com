@@ -17,5 +17,7 @@ I painted the four corners of the Amesville Elementary Running Club's route, so 
 
 ![A circular flower mural painted at a village intersection, with houses and sidewalks beyond](./02.jpg)
 
+![Overhead view of two people kneeling on the street painting the black outlines of the pink coneflower petals](./04.jpg)
+
 ![Hand-drawn concept design of a yellow four-petaled celandine poppy inside a green border and a black-and-white striped circle](./03.jpg)
 *Concept design for the celandine poppy corner.*
