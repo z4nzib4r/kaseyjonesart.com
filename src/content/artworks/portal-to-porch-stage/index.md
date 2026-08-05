@@ -14,4 +14,4 @@ The inside of the portal is lined with mirrored reflective paper and fitted with
 
 ![Festivalgoers walking into the mirrored tunnel at dusk, the orange and teal backdrop rising behind them](./01.jpg)
 
-![A man and a small girl with a pink suitcase crossing the grass toward the installation under a blue sky](./02.jpg)
+![The full installation seen head on, the orange and teal sunburst backdrop with the mirrored tunnel open at its center](./02.jpg)
