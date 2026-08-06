@@ -1,5 +1,5 @@
 ---
-import { COMING_SOON, SITE } from '../consts';
+import { COMING_SOON, MURALS, SITE } from '../consts';
 import '../styles/global.css';
 
 interface Props {
@@ -20,14 +20,22 @@ const noindex = COMING_SOON && path !== '/';
 const home = COMING_SOON ? '/preview/' : '/';
 
 const nav = [
-  { href: home, label: 'Work' },
+  { href: home, label: 'Installations' },
+  { href: '/murals/', label: 'Murals' },
   { href: '/about/', label: 'About' },
   { href: '/cv/', label: 'CV' },
   { href: '/contact/', label: 'Contact' },
 ];
 
-const isActive = (href: string) =>
-  href === home ? path === home || path.startsWith('/work/') : path.startsWith(href);
+// A work's own page counts as belonging to whichever gallery it appears in.
+const workSlug = path.startsWith('/work/') ? path.split('/')[2] : undefined;
+const onMural = workSlug ? MURALS.includes(workSlug) : false;
+
+const isActive = (href: string) => {
+  if (href === home) return path === home || (!!workSlug && !onMural);
+  if (href === '/murals/') return path.startsWith('/murals') || onMural;
+  return path.startsWith(href);
+};
 ---
 
 <html lang="en">
