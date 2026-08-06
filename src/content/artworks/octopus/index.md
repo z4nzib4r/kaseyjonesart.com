@@ -14,6 +14,6 @@ I made it to raise awareness about the effects of single-use plastics on our eco
 
 ![The whole sculpture lit pink and purple at night, its arms reaching out between the trees](./01.jpg)
 
-![Looking up at the head from below, the woven plastic bags and two black eyes filling the frame](./02.jpg)
+![A crowd gathered beneath the octopus in daylight, beside a National Aquarium sign reading "Lend a hand to build an arm"](./02.jpg)
 
 ![The arms and head lit teal and violet at night, seen from underneath](./03.jpg)
