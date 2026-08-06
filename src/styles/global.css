@@ -213,6 +213,23 @@ body.bare main {
   text-align: center;
 }
 
+/* Video sits at the same width as the photos in a work page. */
+.article-body .work-video {
+  display: block;
+  width: 100%;
+  max-width: 620px;
+  margin: 2.75rem auto 0;
+  background: var(--line);
+}
+
+.article-body .work-video + p:has(> em:only-child) {
+  max-width: 620px;
+  margin: 0.75rem auto 2.75rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+}
+
 /* A row of small concept sketches, each with its caption beneath it. */
 .article-body .sketch-row {
   display: grid;
