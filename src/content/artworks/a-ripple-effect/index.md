@@ -26,7 +26,7 @@ I used more than 125,000 straws, hot-glued to a plexiglass and wood frame and li
 
 ![A small girl with beaded braids pressing both hands against the glowing blue surface](./07.jpg)
 
-![A couple silhouetted face to face against the blue light of the piece](./08.jpg)
+![The lit surface filling the frame, blue and white light breaking across the straw relief](./08.jpg)
 
 <video class="work-video" controls preload="metadata" playsinline>
   <source src="/a-ripple-effect-process.mp4" type="video/mp4" />
