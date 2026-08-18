@@ -16,7 +16,7 @@ I used more than 125,000 straws, hot-glued to a plexiglass and wood frame and li
 
 ![Detail of the straw surface, the cut ends forming the ridges and channels of the bay](./01.jpg)
 
-![Straws fanning out from a dense center, the ends reading as a honeycomb of small circles](./02.jpg)
+![A couple silhouetted face to face against the blue light of the piece](./02.jpg)
 
 ![Close view of clustered straw ends stepping across the surface in low relief](./03.jpg)
 
