@@ -1,0 +1,15 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const entry = await getEntry('pages', 'compositions');
+if (!entry) throw new Error('Missing content file: src/content/pages/compositions.md');
+const { Content } = await render(entry);
+---
+
+<Base title="Compositions">
+  <div class="prose">
+    <h1>Compositions</h1>
+    <Content />
+  </div>
+</Base>
