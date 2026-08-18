@@ -1,5 +1,5 @@
 ---
-import { COMING_SOON, MURALS, SITE } from '../consts';
+import { COMING_SOON, GALLERY, MURALS, SITE } from '../consts';
 import '../styles/global.css';
 
 interface Props {
@@ -22,18 +22,26 @@ const home = COMING_SOON ? '/preview/' : '/';
 const nav = [
   { href: home, label: 'Installations' },
   { href: '/murals/', label: 'Murals' },
+  { href: '/gallery/', label: 'Gallery' },
   { href: '/about/', label: 'About' },
   { href: '/cv/', label: 'CV' },
   { href: '/contact/', label: 'Contact' },
 ];
 
-// A work's own page counts as belonging to whichever gallery it appears in.
+// A work's own page counts as belonging to whichever section it appears in.
 const workSlug = path.startsWith('/work/') ? path.split('/')[2] : undefined;
-const onMural = workSlug ? MURALS.includes(workSlug) : false;
+const workGroup = workSlug
+  ? MURALS.includes(workSlug)
+    ? 'murals'
+    : GALLERY.includes(workSlug)
+      ? 'gallery'
+      : 'installations'
+  : undefined;
 
 const isActive = (href: string) => {
-  if (href === home) return path === home || (!!workSlug && !onMural);
-  if (href === '/murals/') return path.startsWith('/murals') || onMural;
+  if (href === home) return path === home || workGroup === 'installations';
+  if (href === '/murals/') return path.startsWith('/murals') || workGroup === 'murals';
+  if (href === '/gallery/') return path.startsWith('/gallery') || workGroup === 'gallery';
   return path.startsWith(href);
 };
 ---

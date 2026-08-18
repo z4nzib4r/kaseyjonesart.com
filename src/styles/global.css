@@ -267,6 +267,14 @@ body.bare main {
   }
 }
 
+.gallery-empty {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--pad);
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .back-link {
   display: inline-block;
   margin-bottom: 2rem;
