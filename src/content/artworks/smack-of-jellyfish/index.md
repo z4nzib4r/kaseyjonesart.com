@@ -1,6 +1,6 @@
 ---
 title: Smack of Jellyfish
-year: 2017
+year: 2016
 materials: Single-use gallon containers, LED lights, plastic bags
 cover: ./cover.jpg
 order: 5
