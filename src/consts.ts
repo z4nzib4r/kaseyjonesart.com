@@ -14,6 +14,7 @@ export const SITE = {
 // shows on Installations.
 export const MURALS = [
   'ohio-native-flowers',
+  'swallow-falls',
   'get-moving',
   'portrait-of-youth',
   'school-of-fish',
