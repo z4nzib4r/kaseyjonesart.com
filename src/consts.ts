@@ -12,7 +12,13 @@ export const SITE = {
 // Which works show on the Murals and Gallery pages. Each entry is a work's
 // folder name in src/content/artworks/. Anything not listed in either place
 // shows on Installations.
-export const MURALS = ['ohio-native-flowers'];
+export const MURALS = [
+  'ohio-native-flowers',
+  'get-moving',
+  'portrait-of-youth',
+  'school-of-fish',
+  'wild-wyoming',
+];
 export const GALLERY: string[] = [];
 
 // Temporary holding page while the site is being reworked.
