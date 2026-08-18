@@ -13,4 +13,9 @@ I am a go-getter. I have ideas, and I see them through. I have a strong sense of
 - 2021 — ["Pregnancy Loss & Grief: Trauma and Healing during a Global Pandemic"](https://maternalart.com/blog/2021/02/23/pregnancy-loss-amp-grief-trauma-and-healing-during-a-global-pandemic-by-kasey-jones/), Maternal Art
 - 2021 — [Journal of Mothers Studies](https://jourms.org/kasey-jones/), Museum of Motherhood
 - 2020 — [Spilt Milk Gallery](https://www.spiltmilkgallery.com/artist-members/kasey-jones), Edinburgh
+- 2018 — ["Get on the water at Artscape with the National Aquarium's virtual reality tour"](https://technical.ly/baltimore/2018/07/20/get-on-the-water-at-artscape-with-the-national-aquariums-virtual-reality-tour), Technical.ly
+- 2016 — ["Why This Working Mom Covered Herself In Breast Milk Bags"](https://www.huffpost.com/entry/why-this-working-mom-covered-herself-in-breast-milk-bags_n_5805132de4b0e8c198a985e2), HuffPost
+- 2016 — ["Mom's Breast Milk Bag 'Suit' Nails What's Wrong With How We Treat Working Moms"](https://www.scarymommy.com/working-mother-wears-breast-milk-bag-suit), Scary Mommy
+- 2016 — ["Why This Working Mom Wore a Suit Made from Breast Milk Bags"](https://www.kveller.com/why-this-working-mom-wore-a-suit-made-from-breast-milk-bags/), Kveller
+- 2016 — ["An artist's response to being a working mother"](https://www.mamamia.com.au/express-milk-in-the-bathroom/), Mamamia
 - ["Life & Work with Kasey Jones of Athens"](https://voyageohio.com/interview/life-work-with-kasey-jones-of-athens/), Voyage Ohio
