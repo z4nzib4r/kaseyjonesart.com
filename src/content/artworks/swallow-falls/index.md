@@ -1,11 +1,10 @@
 ---
 title: Swallow Falls
 year: 2017
-materials: Single-use plastic bottles, paint
-dimensions: Waterfall 40 ft
+materials: Paint
 location: National Aquarium, Baltimore, MD
 cover: ./cover.jpg
 order: 6
 ---
 
-*Swallow Falls* is a forty foot waterfall built from single-use plastic bottles, shown with a painted mural of the falls themselves.
+*Swallow Falls* is a painted mural made to accompany *Aquarium Falls*, a forty foot waterfall built from single-use plastic bottles that stood on the other side of the wall.
