@@ -214,6 +214,14 @@ body.bare main {
   text-align: center;
 }
 
+/* A lone link opening a work page reads as the venue credit under the image. */
+.article-body > p:first-child:has(> a:only-child) {
+  margin-top: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
 /* Video sits at the same width as the photos in a work page. */
 .article-body .work-video {
   display: block;
