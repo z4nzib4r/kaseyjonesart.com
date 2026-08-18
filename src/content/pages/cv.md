@@ -42,7 +42,7 @@ title: CV
 - 2011 — Chauncey Public Library, Chauncey, OH — mural
 - 2011 — Ohio University, Athens, OH — metal mural installation
 - 2011 — Nelsonville Music Festival, Nelsonville, OH — mural
-- 2011 — Athens Public Library, Athens, OH — mural
+- 2010 — Athens Public Library, Athens, OH — mural
 - 2010 — Kids on Campus, Amesville, OH — mural
 - 2009 — Friends of the Community Pathways, Jackson, WY — mural
 - 2009 — Elemental Athletics, Athens, OH — mural
