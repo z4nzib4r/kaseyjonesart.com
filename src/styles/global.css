@@ -308,6 +308,17 @@ body.bare main {
   margin: 0 0 1.75rem;
 }
 
+/* The About page: portrait and text centred in the column. */
+.prose-centered {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.prose-centered img {
+  max-width: 180px;
+}
+
 .prose h1 {
   font-size: 1.3rem;
   font-weight: 500;

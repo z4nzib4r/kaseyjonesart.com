@@ -82,11 +82,18 @@ title: CV
 - 2011 — *Women of Appalachia*, Ohio University Multicultural Gallery, Athens, OH
 - 2011 — *Mid-Year Exhibition*, Rhodes Tower, Columbus, OH
 
-## Publications
+## Press and Publications
 
 - 2026 — Museum of Motherhood Studies, St. Pete, FL
 - 2023 — Milk Art Journal, Netherlands
-- 2021 — Maternal Art, online publication, United Kingdom
-- 2021 — Journal of Mothers Studies, Museum of Motherhood, St. Pete, FL
-- 2020 — *Home-Works*, Spilt Milk Gallery, Edinburgh, Scotland
+- 2021 — ["Pregnancy Loss & Grief: Trauma and Healing during a Global Pandemic"](https://maternalart.com/blog/2021/02/23/pregnancy-loss-amp-grief-trauma-and-healing-during-a-global-pandemic-by-kasey-jones/), Maternal Art, United Kingdom
+- 2021 — [Journal of Mothers Studies](https://jourms.org/kasey-jones/), Museum of Motherhood, St. Pete, FL
+- 2020 — [*Home-Works*](https://www.spiltmilkgallery.com/artist-members/kasey-jones), Spilt Milk Gallery, Edinburgh, Scotland
+- 2018 — ["Get on the water at Artscape with the National Aquarium's virtual reality tour"](https://technical.ly/baltimore/2018/07/20/get-on-the-water-at-artscape-with-the-national-aquariums-virtual-reality-tour), Technical.ly, Baltimore, MD
 - 2018 — Wise Mother Magazine, San Francisco, CA
+- 2017 — ["Artscape 2017: 10 things not to miss"](https://www.baltimoresun.com/entertainment/arts/bs-wk-artscape-2017-story.html), The Baltimore Sun, Baltimore, MD
+- 2016 — ["Why This Working Mom Covered Herself In Breast Milk Bags"](https://www.huffpost.com/entry/why-this-working-mom-covered-herself-in-breast-milk-bags_n_5805132de4b0e8c198a985e2), HuffPost
+- 2016 — ["Mom's Breast Milk Bag 'Suit' Nails What's Wrong With How We Treat Working Moms"](https://www.scarymommy.com/working-mother-wears-breast-milk-bag-suit), Scary Mommy
+- 2016 — ["Why This Working Mom Wore a Suit Made from Breast Milk Bags"](https://www.kveller.com/why-this-working-mom-wore-a-suit-made-from-breast-milk-bags/), Kveller
+- 2016 — ["An artist's response to being a working mother"](https://www.mamamia.com.au/express-milk-in-the-bathroom/), Mamamia, Australia
+- ["Life & Work with Kasey Jones of Athens"](https://voyageohio.com/interview/life-work-with-kasey-jones-of-athens/), Voyage Ohio
