@@ -316,7 +316,9 @@ body.bare main {
 }
 
 .prose-centered img {
-  max-width: 180px;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .prose h1 {
