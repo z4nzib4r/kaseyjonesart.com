@@ -6,11 +6,13 @@ import Gallery from '../components/Gallery.astro';
 import frame from '../assets/landing/frame.jpg';
 import bell from '../assets/landing/bell.jpg';
 import weaving from '../assets/landing/weaving.jpg';
+import sharkFrame from '../assets/landing/shark-frame.jpg';
 
 // The banner across the top of the landing page: Kasey at work.
 const banner = [
   { src: frame, alt: 'Kasey wiring the chicken wire frame of a large sculpture in her yard' },
   { src: bell, alt: 'Kasey holding a jellyfish bell made of gallon jugs above her head' },
+  { src: sharkFrame, alt: 'Kasey wiring the pipe frame of the hammerhead shark, rolls of chicken wire behind her' },
   { src: weaving, alt: 'Kasey and visitors weaving plastic bags into a sculpture at the Inner Harbor' },
 ];
 ---
@@ -23,7 +25,7 @@ const banner = [
   >
     <div class="landing-banner">
       {banner.map(({ src, alt }) => (
-        <Image src={src} alt={alt} widths={[300, 600, 900]} sizes="(max-width: 780px) 33vw, 250px" />
+        <Image src={src} alt={alt} widths={[300, 600, 900]} sizes="(max-width: 780px) 25vw, 220px" />
       ))}
     </div>
     <p class="landing-wordmark">{SITE.artist}</p>

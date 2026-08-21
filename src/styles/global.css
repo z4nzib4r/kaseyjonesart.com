@@ -105,9 +105,9 @@ body.bare main {
 /* A banner of the artist at work, across the top of the landing page. */
 .landing-banner {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 0.5rem;
-  width: min(760px, 100%);
+  width: min(900px, 100%);
   margin: 0 auto 2.75rem;
 }
 
