@@ -5,7 +5,6 @@ materials: Single-use plastic drinking straws, hot glue, plexiglass, wood, progr
 dimensions: 6 × 10 ft
 location: National Aquarium, Baltimore, MD
 cover: ./cover.jpg
-order: 3
 ---
 
 [National Aquarium](https://aqua.org/)

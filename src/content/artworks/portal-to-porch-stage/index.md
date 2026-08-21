@@ -5,7 +5,6 @@ materials: Mirrored reflective paper, programmable LED lights, paint
 dimensions: Backdrop 30 × 40 ft; tunnel 10 × 20 ft
 location: Nelsonville Music Festival, Nelsonville, OH
 cover: ./cover.jpg
-order: 1
 ---
 
 [Nelsonville Music Festival](https://nelsonvillefest.org/)

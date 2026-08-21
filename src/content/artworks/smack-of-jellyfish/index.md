@@ -4,7 +4,6 @@ year: 2016
 materials: Single-use gallon containers, LED lights, plastic bags
 location: National Aquarium, Baltimore, MD
 cover: ./cover.jpg
-order: 5
 ---
 
 [National Aquarium](https://aqua.org/)

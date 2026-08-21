@@ -5,7 +5,6 @@ materials: Over 3,000 repurposed single-use plastic water bottles, LED lights, p
 dimensions: 30 feet
 location: Artscape, Baltimore, MD
 cover: ./cover.jpg
-order: 6
 ---
 
 Inspired by the theme CAMP Artscape, we decided to create a nature scene similar to something you might see while camping: a trickling waterfall with stepping stones.

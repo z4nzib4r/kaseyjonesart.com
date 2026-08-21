@@ -4,7 +4,6 @@ year: 2016
 materials: Paint
 location: National Aquarium, Baltimore, MD
 cover: ./cover.jpg
-order: 10
 ---
 
 [National Aquarium](https://aqua.org/)

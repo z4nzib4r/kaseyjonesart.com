@@ -5,7 +5,6 @@ materials: Chicken wire, PVC pipe, single-use plastic bags
 dimensions: 10 × 20 ft
 location: National Aquarium, Baltimore, MD
 cover: ./cover.jpg
-order: 4
 ---
 
 [National Aquarium](https://aqua.org/)

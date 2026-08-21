@@ -4,7 +4,6 @@ year: 2024
 materials: Asphalt paint
 location: Amesville, OH
 cover: ./cover.jpg
-order: 2
 ---
 
 Commissioned by Creating Healthy Communities, a program of the Athens City-County Health Department, in collaboration with the Village of Amesville, this asphalt art installation spans the intersections of four village streets.
