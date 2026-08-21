@@ -102,6 +102,22 @@ body.bare main {
   text-align: center;
 }
 
+/* A banner of the artist at work, across the top of the landing page. */
+.landing-banner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  width: min(760px, 100%);
+  margin: 0 auto 2.75rem;
+}
+
+.landing-banner img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background: var(--line);
+}
+
 .landing-wordmark {
   margin: 0;
   font-size: clamp(1rem, 3.5vw, 1.15rem);

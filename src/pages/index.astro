@@ -1,7 +1,18 @@
 ---
+import { Image } from 'astro:assets';
 import { COMING_SOON, SITE } from '../consts';
 import Base from '../layouts/Base.astro';
 import Gallery from '../components/Gallery.astro';
+import frame from '../assets/landing/frame.jpg';
+import bell from '../assets/landing/bell.jpg';
+import weaving from '../assets/landing/weaving.jpg';
+
+// The banner across the top of the landing page: Kasey at work.
+const banner = [
+  { src: frame, alt: 'Kasey wiring the chicken wire frame of a large sculpture in her yard' },
+  { src: bell, alt: 'Kasey holding a jellyfish bell made of gallon jugs above her head' },
+  { src: weaving, alt: 'Kasey and visitors weaving plastic bags into a sculpture at the Inner Harbor' },
+];
 ---
 
 {COMING_SOON ? (
@@ -10,6 +21,11 @@ import Gallery from '../components/Gallery.astro';
     description={`A new site for ${SITE.artist} is on the way.`}
     bare
   >
+    <div class="landing-banner">
+      {banner.map(({ src, alt }) => (
+        <Image src={src} alt={alt} widths={[300, 600, 900]} sizes="(max-width: 780px) 33vw, 250px" />
+      ))}
+    </div>
     <p class="landing-wordmark">{SITE.artist}</p>
     <p class="landing-note">A new site is on the way.</p>
     <p class="landing-links">
