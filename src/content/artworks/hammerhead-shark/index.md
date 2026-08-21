@@ -15,9 +15,17 @@ Commissioned by the National Aquarium, I created a 16-foot hammerhead shark for 
 
 This participatory sculpture invited Artscape attendees to help create the piece. They used strips of recycled plastic water bottles and wove them through the form of the shark.
 
+![A National Aquarium sign reading "Use Your Bottles to Build! This 16-foot hammerhead shark can't build itself - pitch in with local artist Kasey Jones"](./10.jpg)
+
+![The finished shark in daylight, seen from the side on the festival lawn](./08.jpg)
+
 ![The shark on its stands at dusk, children looking up at it](./01.jpg)
 
+![The shark at dusk from the front, festival tents behind it](./09.jpg)
+
 The project was intended to raise awareness about how our plastic waste is affecting animals at the top of the food chain.
+
+![A National Aquarium sign reading "Your Resource, Your Responsibility - about 80 percent of marine litter originates on land, and most of it is plastic"](./11.jpg)
 
 The shark was later transformed into a kinetic sculpture for the Kinetic Sculpture Race in Baltimore, hosted by the American Visionary Art Museum.
 
