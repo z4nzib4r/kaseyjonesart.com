@@ -17,11 +17,17 @@ This participatory sculpture invited Artscape attendees to help create the piece
 
 ![A National Aquarium sign reading "Use Your Bottles to Build! This 16-foot hammerhead shark can't build itself - pitch in with local artist Kasey Jones"](./10.jpg)
 
+![Close up of the woven bottle strips over the wire, a Fiji label among them](./12.jpg)
+
 ![The finished shark in daylight, seen from the side on the festival lawn](./08.jpg)
+
+![The shark from the front quarter, its hammer head and dorsal fin against the trees](./13.jpg)
 
 ![The shark on its stands at dusk, children looking up at it](./01.jpg)
 
 ![The shark at dusk from the front, festival tents behind it](./09.jpg)
+
+![The whole shark at dusk from the side, marquee tents behind it](./14.jpg)
 
 The project was intended to raise awareness about how our plastic waste is affecting animals at the top of the food chain.
 
