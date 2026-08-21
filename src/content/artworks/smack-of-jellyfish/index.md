@@ -12,11 +12,11 @@ I was commissioned by the National Aquarium to create another participatory inst
 
 The medium is always the message when working with the aquarium, and this year's theme was *Space: Explore what's out there*. I fabricated two installations for our space: a smack of jellies, as well as a mural.
 
-![The group lit from within at dusk, glowing yellow above the crowd](./01.jpg)
+![Inside a bell, a ring of LEDs and its battery pack lighting the jugs from the centre](./03.jpg)
 
 The smack of jellies represented a new species of bioluminescent jellyfish that had recently been discovered in the Mediterranean Sea. The mural depicted the [transformation of a vampire squid](/work/transformation-of-a-vampire-squid/), a deep sea creature that lives where sunlight never penetrates.
 
-![Inside a bell, a ring of LEDs and its battery pack lighting the jugs from the centre](./03.jpg)
+![The group lit from within at dusk, glowing yellow above the crowd](./01.jpg)
 
 With help from the Ohio Valley Discovery Museum, I was able to build twelve jelly bells, and from those bells participants were encouraged to add tentacles using recycled plastic bags. Festival goers also had the opportunity to help paint the 'paint by number' mural.
 
