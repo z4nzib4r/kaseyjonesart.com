@@ -1,18 +1,23 @@
 ---
 title: Hammerhead Shark
 year: 2015
-materials: Single-use plastic bottles
+materials: Chicken wire, PVC pipe, single-use plastic bottles
+dimensions: 16 ft
 location: National Aquarium, Baltimore, MD
 cover: ./cover.jpg
 ---
 
 [National Aquarium](https://aqua.org/)
 
-*Hammerhead Shark* was built from single-use plastic bottles strung over a pipe frame.
+Commissioned by the National Aquarium, I created a 16-foot hammerhead shark for Baltimore's free art festival, Artscape.
 
 ![The bare pipe frame under a work tent, rolls of chicken wire waiting behind it](./05.jpg)
 
+This participatory sculpture invited Artscape attendees to help create the piece. They used strips of recycled plastic water bottles and wove them through the form of the shark.
+
 ![The shark on its stands at dusk, children looking up at it](./01.jpg)
+
+The project was intended to raise awareness about how our plastic waste is affecting animals at the top of the food chain.
 
 The shark was later transformed into a kinetic sculpture for the Kinetic Sculpture Race in Baltimore, hosted by the American Visionary Art Museum.
 
