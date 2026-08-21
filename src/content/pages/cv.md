@@ -101,5 +101,6 @@ title: CV
 - 2016 — [Maryland Federation of Art](http://mdfedart.tumblr.com/), Baltimore, MD
 - 2014 — ["Sculpting for Social Good"](http://www.aqua.org/blog/2014/july/sculpting-for-social-good), National Aquarium, Baltimore, MD
 - 2014 — ["Community Art Project: Calypso"](https://www.rebelmouse.com/nationalaquarium/community-art-project-calypso--627946431.html), National Aquarium, Baltimore, MD
+- ["Fish Out of Water"](https://umbc.edu/stories/fish-out-of-water/), UMBC, Baltimore, MD
 - [Shark installation video](https://www.youtube.com/watch?v=ecx98jW8qTE), YouTube
 - ["Life & Work with Kasey Jones of Athens"](https://voyageohio.com/interview/life-work-with-kasey-jones-of-athens/), Voyage Ohio
