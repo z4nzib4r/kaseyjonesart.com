@@ -8,32 +8,44 @@ import bell from '../assets/landing/bell.jpg';
 import weaving from '../assets/landing/weaving.jpg';
 import sharkFrame from '../assets/landing/shark-frame.jpg';
 
-// The banner across the top of the landing page: Kasey at work.
-const banner = [
-  { src: frame, alt: 'Kasey wiring the chicken wire frame of a large sculpture in her yard' },
-  { src: bell, alt: 'Kasey holding a jellyfish bell made of gallon jugs above her head' },
-  { src: sharkFrame, alt: 'Kasey wiring the pipe frame of the hammerhead shark, rolls of chicken wire behind her' },
-  { src: weaving, alt: 'Kasey and visitors weaving plastic bags into a sculpture at the Inner Harbor' },
+// The fullscreen slideshow behind the landing page: Kasey at work. Each slide
+// crossfades into the next; the timing lives in .landing-slides in global.css,
+// where SLIDE_SECONDS has to match the stagger set on each image below.
+const SLIDE_SECONDS = 5;
+// `focus` is where each square photo should sit when a wide window crops it
+// top and bottom — chosen so nobody loses their head.
+const slides = [
+  { src: frame, focus: '50% 12%', alt: 'Kasey wiring the chicken wire frame of a large sculpture in her yard' },
+  { src: bell, focus: '50% 22%', alt: 'Kasey holding a jellyfish bell made of gallon jugs above her head' },
+  { src: sharkFrame, focus: '50% 40%', alt: 'Kasey wiring the pipe frame of the hammerhead shark, rolls of chicken wire behind her' },
+  { src: weaving, focus: '50% 42%', alt: 'Kasey and visitors weaving plastic bags into a sculpture at the Inner Harbor' },
 ];
+
+// Where the Enter button leads: the gallery, wherever it currently lives.
+const enterHref = COMING_SOON ? '/preview/' : '/';
 ---
 
 {COMING_SOON ? (
-  <Base
-    title="Coming soon"
-    description={`A new site for ${SITE.artist} is on the way.`}
-    bare
-  >
-    <div class="landing-banner">
-      {banner.map(({ src, alt }) => (
-        <Image src={src} alt={alt} widths={[300, 600, 900]} sizes="(max-width: 780px) 25vw, 220px" />
-      ))}
+  <Base description={SITE.description} bare>
+    <div class="landing">
+      <div class="landing-slides">
+        {slides.map(({ src, focus, alt }, i) => (
+          <Image
+            src={src}
+            alt={alt}
+            widths={[900, 1400, 2000, 2600]}
+            sizes="100vw"
+            loading={i === 0 ? 'eager' : 'lazy'}
+            style={`object-position: ${focus}; animation-delay: ${i * SLIDE_SECONDS}s`}
+          />
+        ))}
+      </div>
+      <div class="landing-veil"></div>
+      <div class="landing-inner">
+        <h1 class="landing-title">{SITE.artist}</h1>
+        <a class="landing-enter" href={enterHref}>Enter</a>
+      </div>
     </div>
-    <p class="landing-wordmark">{SITE.artist}</p>
-    <p class="landing-note">A new site is on the way.</p>
-    <p class="landing-links">
-      <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
-      <a href={SITE.instagram} target="_blank" rel="noopener">Instagram</a>
-    </p>
   </Base>
 ) : (
   <Base>

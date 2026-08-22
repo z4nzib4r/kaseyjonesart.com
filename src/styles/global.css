@@ -86,7 +86,7 @@ main {
   border-bottom: 1px solid var(--ink);
 }
 
-/* ---------- coming-soon landing ---------- */
+/* ---------- landing page ---------- */
 
 /* A bare page has no header or footer, so main centres in the viewport. */
 body.bare {
@@ -102,49 +102,96 @@ body.bare main {
   text-align: center;
 }
 
-/* A banner of the artist at work, across the top of the landing page. */
-.landing-banner {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0.5rem;
-  width: min(900px, 100%);
-  margin: 0 auto 2.75rem;
+/* The landing fills the window: slideshow, a veil over it for contrast, then
+   the title and Enter button on top. Fixed so it ignores main's padding. */
+.landing {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: #000;
 }
 
-.landing-banner img {
+.landing-slides img {
+  position: absolute;
+  inset: 0;
   width: 100%;
-  aspect-ratio: 1 / 1;
+  height: 100%;
   object-fit: cover;
-  background: var(--line);
+  /* The photos are square crops, so a wide window trims top and bottom; each
+     slide sets its own object-position in index.astro to keep its subject. */
+  object-position: 50% 35%;
+  opacity: 0;
+  /* 4 slides x 5s each; the stagger is set per image in index.astro. */
+  animation: landing-slide 20s linear infinite;
 }
 
-.landing-wordmark {
-  margin: 0;
-  font-size: clamp(1rem, 3.5vw, 1.15rem);
-  font-weight: 500;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
+@keyframes landing-slide {
+  0% { opacity: 0; }
+  7.5% { opacity: 1; }
+  25% { opacity: 1; }
+  32.5% { opacity: 0; }
+  100% { opacity: 0; }
 }
 
-.landing-note {
-  margin: 1.75rem 0 0;
-  color: var(--muted);
+/* Transparent black over the photos so white type stays readable. */
+.landing-veil {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
 }
 
-.landing-links {
+.landing-inner {
+  position: absolute;
+  inset: 0;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  gap: 0.75rem 1.75rem;
-  margin: 3rem 0 0;
-  font-size: 0.8rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--muted);
+  gap: clamp(2rem, 6vh, 3.5rem);
+  padding: var(--pad);
+  text-align: center;
+  color: #fff;
 }
 
-.landing-links a:hover {
+.landing-title {
+  margin: 0;
+  font-size: clamp(2rem, 8.5vw, 6rem);
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0.12em;
+  text-indent: 0.12em;
+  text-transform: uppercase;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.45);
+}
+
+.landing-enter {
+  display: inline-block;
+  padding: 1rem 3.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  font-size: clamp(0.85rem, 2.2vw, 1rem);
+  letter-spacing: 0.3em;
+  text-indent: 0.3em;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.15);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.landing-enter:hover,
+.landing-enter:focus-visible {
+  background: #fff;
   color: var(--ink);
+}
+
+/* Hold on the first photo for anyone who asks for less motion. */
+@media (prefers-reduced-motion: reduce) {
+  .landing-slides img {
+    animation: none;
+  }
+
+  .landing-slides img:first-child {
+    opacity: 1;
+  }
 }
 
 /* ---------- gallery ---------- */
