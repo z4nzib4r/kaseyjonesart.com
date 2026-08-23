@@ -283,6 +283,35 @@ body.bare main {
   text-align: center;
 }
 
+/* Process and progress shots, shown smaller so they read as a contact sheet
+   rather than competing with the finished work. */
+.article-body .process-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2.5rem 0;
+  align-items: start;
+}
+
+.article-body .process-row p,
+.article-body .process-row p:has(> img) {
+  max-width: none;
+  margin: 0;
+}
+
+.article-body .process-row img {
+  display: block;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+@media (max-width: 720px) {
+  .article-body .process-row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+  }
+}
+
 /* A row of small concept sketches, each with its caption beneath it. */
 .article-body .sketch-row {
   display: grid;
