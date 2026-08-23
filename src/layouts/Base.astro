@@ -1,11 +1,11 @@
 ---
-import { COMING_SOON, CONCEPTUAL, MURALS, PAINTINGS, SITE } from '../consts';
+import { CONCEPTUAL, MURALS, PAINTINGS, SITE } from '../consts';
 import '../styles/global.css';
 
 interface Props {
   title?: string;
   description?: string;
-  // Strips the header and footer for a standalone page (the coming-soon landing).
+  // Strips the header and footer for a standalone page (the landing page).
   bare?: boolean;
 }
 
@@ -13,14 +13,8 @@ const { title, description = SITE.description, bare = false } = Astro.props;
 const pageTitle = title ? `${title} — ${SITE.artist}` : SITE.artist;
 const path = Astro.url.pathname;
 
-// While the landing page sits on "/", the rest of the site is still reachable
-// but unlisted: keep it out of search results and point the header at the
-// gallery's temporary home.
-const noindex = COMING_SOON && path !== '/';
-const home = COMING_SOON ? '/preview/' : '/';
-
 const nav = [
-  { href: home, label: 'Installations' },
+  { href: '/installations/', label: 'Installations' },
   { href: '/murals/', label: 'Murals' },
   { href: '/paintings/', label: 'Paintings' },
   { href: '/conceptual/', label: 'Conceptual' },
@@ -44,7 +38,7 @@ const workGroup = workSlug
   : undefined;
 
 const isActive = (href: string) => {
-  if (href === home) return path === home || workGroup === 'installations';
+  if (href === '/installations/') return path.startsWith('/installations') || workGroup === 'installations';
   if (href === '/murals/') return path.startsWith('/murals') || workGroup === 'murals';
   if (href === '/paintings/') return path.startsWith('/paintings') || workGroup === 'paintings';
   if (href === '/conceptual/') return path.startsWith('/conceptual') || workGroup === 'conceptual';
@@ -62,12 +56,11 @@ const isActive = (href: string) => {
     <meta property="og:description" content={description} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="canonical" href={new URL(path, Astro.site)} />
-    {noindex && <meta name="robots" content="noindex, nofollow" />}
   </head>
   <body class={bare ? 'bare' : undefined}>
     {!bare && (
       <header class="site-header">
-        <a class="wordmark" href={home}>{SITE.artist}</a>
+        <a class="wordmark" href="/">{SITE.artist}</a>
         <nav>
           {nav.map(({ href, label }) => (
             <a href={href} aria-current={isActive(href) ? 'page' : undefined}>{label}</a>
