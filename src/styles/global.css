@@ -121,16 +121,8 @@ body.bare main {
      slide sets its own object-position in index.astro to keep its subject. */
   object-position: 50% 35%;
   opacity: 0;
-  /* 4 slides x 5s each; the stagger is set per image in index.astro. */
-  animation: landing-slide 20s linear infinite;
-}
-
-@keyframes landing-slide {
-  0% { opacity: 0; }
-  7.5% { opacity: 1; }
-  25% { opacity: 1; }
-  32.5% { opacity: 0; }
-  100% { opacity: 0; }
+  /* The crossfade itself — keyframes, timing and the reduced-motion still —
+     is generated in index.astro, so it follows that page's list of slides. */
 }
 
 /* Transparent black over the photos so white type stays readable. */
@@ -181,17 +173,6 @@ body.bare main {
 .landing-enter:focus-visible {
   background: #fff;
   color: var(--ink);
-}
-
-/* Hold on the first photo for anyone who asks for less motion. */
-@media (prefers-reduced-motion: reduce) {
-  .landing-slides img {
-    animation: none;
-  }
-
-  .landing-slides img:first-child {
-    opacity: 1;
-  }
 }
 
 /* ---------- gallery ---------- */

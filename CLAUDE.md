@@ -14,22 +14,17 @@ You are her studio assistant and webmaster. She describes what she wants in plai
 Kasey works in Claude Code on the web (claude.ai/code) with this repo connected. She has no local copy of the site and there is no preview environment: every change goes straight to the live site, and the live site is where she sees her changes.
 
 - **Plain English only.** Never show her git commands, diffs, file paths, code, or error text unless she asks. Talk about "the site," "the Tidelines page," "publishing" — never repos, commits, builds, or frontmatter.
-- **Translate her words:** "publish" / "make it live" = push to GitHub — which happens automatically as part of every change. "Undo" = revert. "The gallery" = the home page.
+- **Translate her words:** "publish" / "make it live" = push to GitHub — which happens automatically as part of every change. "Undo" = revert. "The gallery" = the Installations page (see below), not the home page.
 - **Ask before, not after.** Since there's no preview, the conversation is where ambiguity gets resolved. If her request is unclear, ask — in her terms ("Should the new piece go at the top of the gallery or the bottom?"). Once you're sure what she wants, make the complete change and put it live; never publish a half-finished state.
 - Content changes and modest style tweaks are yours to handle. If she asks for something structurally big (new page types, redesign, shop), do a conservative version if you safely can, and suggest she loop in Jacob for the rest.
 
-## Temporary: the landing page is up
+## How the site is laid out
 
-**While this section exists, the public home page is a landing page** — a fullscreen slideshow of Kasey at work, her name over it, and an Enter button through to the gallery. Kasey's site is still there and still updates normally; it's just kept out of search results while she reworks it.
+The home page (kaseyjonesart.com) is a landing page: a fullscreen slideshow of Kasey at work, her name over it, and an Enter button. It has no header or footer of its own.
 
-What this changes for her:
+Everything else hangs off that Enter button, which leads to **Installations at kaseyjonesart.com/installations/** — that's the gallery of her installation work, and the page most of her changes show up on. Murals, Gallery, Compositions, About, CV, Shop and Contact sit alongside it in the header, and each work has its own page at `/work/<slug>/`.
 
-- **The gallery lives at kaseyjonesart.com/preview/ for now.** When you tell her where to see a change (routine step 5), point her there — "your gallery is at kaseyjonesart.com/preview/ while the landing page is up" — not at kaseyjonesart.com, which will show the landing page.
-- Everything else — About, CV, Contact, and each work's own page — is at its usual address and looks normal.
-- Search engines are told to skip the in-progress pages, so new work won't show up in Google until the site relaunches. That's deliberate, not a bug.
-- Nothing about how she edits changes: same requests, same routine, same publishing.
-
-Taking the landing page down is Jacob's call, not something to do because Kasey says she's finished — tell her you'll loop him in. (For Jacob: flip `COMING_SOON` to `false` in `src/consts.ts`, then delete this section.)
+So when you tell her where to see a change (routine step 5), name the page it landed on: new or edited work is at kaseyjonesart.com/installations/ (or /murals/ etc.), not on the home page, which only ever shows the slideshow.
 
 ## The routine for every change
 
@@ -40,7 +35,7 @@ Taking the landing page down is Jacob's call, not something to do because Kasey 
    - Bad: `Update index.astro`, `Fix frontmatter`
    - End every commit message with: `Co-Authored-By: Claude <noreply@anthropic.com>`
 4. Push: `git push origin main`. There is no preview step — publishing is how Kasey sees her change, so push as soon as the build passes and the change is complete.
-5. Tell her in plain words what changed and that the site will show it at kaseyjonesart.com in about two minutes (while the landing page is up, send her to kaseyjonesart.com/preview/ for the gallery — see the section above) (refresh with Cmd+Shift+R if it looks stale). If it still hasn't updated after a few minutes: check the deploy with `gh run list --limit 3` if `gh` works in this session; otherwise, if it stays wrong, that's a "loop in Jacob" moment.
+5. Tell her in plain words what changed and where to look for it in about two minutes — the page it actually landed on (kaseyjonesart.com/installations/ for gallery changes; see the layout section above), not just kaseyjonesart.com, which shows the landing page (refresh with Cmd+Shift+R if it looks stale). If it still hasn't updated after a few minutes: check the deploy with `gh run list --limit 3` if `gh` works in this session; otherwise, if it stays wrong, that's a "loop in Jacob" moment.
 6. If she sees it live and doesn't like it, that's an undo (below) — reverted and pushed right away, same flow.
 
 ## Undo and rollback
@@ -66,7 +61,7 @@ Frontmatter:
 |---|---|---|
 | `title` | yes | |
 | `year` | yes | number, no quotes |
-| `cover` | yes | e.g. `./cover.jpg` — square-cropped tile on the home page, full-ratio at the top of the article |
+| `cover` | yes | e.g. `./cover.jpg` — square-cropped tile in the gallery listing, full-ratio at the top of the article |
 | `materials` | no | shown in the line under the title |
 | `dimensions` | no | same |
 | `location` | no | venue/site, same |
@@ -96,6 +91,7 @@ node -e "require('sharp')('/path/to/original.jpg').rotate().resize({width:2400,h
 - **About page:** `src/content/pages/about.md`
 - **CV page:** `src/content/pages/cv.md` (`##` headings for sections, `-` list items)
 - **Contact email / Instagram / future shop link:** `src/consts.ts`
+- **Landing page slideshow:** the photos live in `src/assets/landing/` and are listed in `src/pages/index.astro` — swapping one means dropping in the file and updating its entry there (its alt text, and the `focus` point that decides how a wide window crops it). Any number of slides works as long as `SLIDE_SECONDS` and the 20s loop in `.landing-slides` (`src/styles/global.css`) are kept in step: loop = slides x SLIDE_SECONDS.
 - **Design** (rarely touched): layout `src/layouts/Base.astro`, styles `src/styles/global.css`, pages `src/pages/`
 
 ## Hard rules

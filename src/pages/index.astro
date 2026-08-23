@@ -1,17 +1,17 @@
 ---
 import { Image } from 'astro:assets';
-import { COMING_SOON, SITE } from '../consts';
+import { SITE } from '../consts';
 import Base from '../layouts/Base.astro';
-import Gallery from '../components/Gallery.astro';
 import frame from '../assets/landing/frame.jpg';
 import bell from '../assets/landing/bell.jpg';
 import weaving from '../assets/landing/weaving.jpg';
 import sharkFrame from '../assets/landing/shark-frame.jpg';
 
 // The fullscreen slideshow behind the landing page: Kasey at work. Each slide
-// crossfades into the next; the timing lives in .landing-slides in global.css,
-// where SLIDE_SECONDS has to match the stagger set on each image below.
+// holds for SLIDE_SECONDS, then crossfades into the next over FADE_SECONDS.
 const SLIDE_SECONDS = 5;
+const FADE_SECONDS = 1.5;
+
 // `focus` is where each square photo should sit when a wide window crops it
 // top and bottom — chosen so nobody loses their head.
 const slides = [
@@ -21,34 +21,50 @@ const slides = [
   { src: weaving, focus: '50% 42%', alt: 'Kasey and visitors weaving plastic bags into a sculpture at the Inner Harbor' },
 ];
 
-// Where the Enter button leads: the gallery, wherever it currently lives.
-const enterHref = COMING_SOON ? '/preview/' : '/';
+// One loop covers every slide once, and each slide is staggered by its
+// position, so the timing follows the list above however long it gets.
+const loopSeconds = slides.length * SLIDE_SECONDS;
+const at = (seconds: number) => `${((seconds / loopSeconds) * 100).toFixed(3)}%`;
+const slideshowCss = `
+@keyframes landing-slide {
+  0% { opacity: 0; }
+  ${at(FADE_SECONDS)} { opacity: 1; }
+  ${at(SLIDE_SECONDS)} { opacity: 1; }
+  ${at(SLIDE_SECONDS + FADE_SECONDS)} { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.landing-slides img {
+  animation: landing-slide ${loopSeconds}s linear infinite;
+}
+
+/* Hold on the first photo for anyone who asks for less motion. */
+@media (prefers-reduced-motion: reduce) {
+  .landing-slides img { animation: none; }
+  .landing-slides img:first-child { opacity: 1; }
+}
+`;
 ---
 
-{COMING_SOON ? (
-  <Base description={SITE.description} bare>
-    <div class="landing">
-      <div class="landing-slides">
-        {slides.map(({ src, focus, alt }, i) => (
-          <Image
-            src={src}
-            alt={alt}
-            widths={[900, 1400, 2000, 2600]}
-            sizes="100vw"
-            loading={i === 0 ? 'eager' : 'lazy'}
-            style={`object-position: ${focus}; animation-delay: ${i * SLIDE_SECONDS}s`}
-          />
-        ))}
-      </div>
-      <div class="landing-veil"></div>
-      <div class="landing-inner">
-        <h1 class="landing-title">{SITE.artist}</h1>
-        <a class="landing-enter" href={enterHref}>Enter</a>
-      </div>
+<Base description={SITE.description} bare>
+  <div class="landing">
+    <style is:inline set:html={slideshowCss}></style>
+    <div class="landing-slides">
+      {slides.map(({ src, focus, alt }, i) => (
+        <Image
+          src={src}
+          alt={alt}
+          widths={[900, 1400, 2000, 2600]}
+          sizes="100vw"
+          loading={i === 0 ? 'eager' : 'lazy'}
+          style={`object-position: ${focus}; animation-delay: ${i * SLIDE_SECONDS}s`}
+        />
+      ))}
     </div>
-  </Base>
-) : (
-  <Base>
-    <Gallery only="installations" />
-  </Base>
-)}
+    <div class="landing-veil"></div>
+    <div class="landing-inner">
+      <h1 class="landing-title">{SITE.artist}</h1>
+      <a class="landing-enter" href="/installations/">Enter</a>
+    </div>
+  </div>
+</Base>
