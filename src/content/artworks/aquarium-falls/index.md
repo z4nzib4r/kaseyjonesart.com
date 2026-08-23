@@ -1,7 +1,7 @@
 ---
 title: Aquarium Falls
 year: 2017
-materials: Over 3,000 repurposed single-use plastic water bottles, LED lights, papier-mâché, paint
+materials: Over 3,000 repurposed single-use plastic water bottles, LED lights, chicken wire, papier-mâché, paint
 dimensions: 40 feet
 location: Artscape, Baltimore, MD
 cover: ./cover.jpg
@@ -21,6 +21,8 @@ All hands on deck with this installation, as much of the prep work for the bottl
 
 In addition to the waterfall and facade structure, we also painted a landscape mural of [Swallow Falls](/work/swallow-falls/), a waterfall located in central Maryland.
 
+The facade itself was fabricated from sculpted chicken wire mesh and papier-mâché, then faux painted to look like the rock found in and around Swallow Falls.
+
 ![The blank facade panels braced upright in the yard, one marked "Mural Side #1" in pencil](./05.jpg)
 
 *The facade panels built and braced, before any paint went on.*
@@ -35,4 +37,14 @@ In addition to the waterfall and facade structure, we also painted a landscape m
 
 ![Newspaper papier-mâché built up over the wire into the shape of the rock face](./10.jpg)
 
+![A newspaper-covered boulder on the grass beside one already primed white](./11.jpg)
+
+![The primed slabs stacked up under the tarp, still unpainted](./12.jpg)
+
+![The first faux painting going on, greys and blacks worked into the layers](./13.jpg)
+
+![Close up of the finished rock face, its layers painted in greys and blues](./14.jpg)
+
 ![Detail of the hand-painted rock surface in blues and greys](./04.jpg)
+
+![The finished facade standing in the yard, boulders piled around the cave opening](./15.jpg)
