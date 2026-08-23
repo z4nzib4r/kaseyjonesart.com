@@ -21,4 +21,8 @@ All hands on deck with this installation, as much of the prep work for the bottl
 
 In addition to the waterfall and facade structure, we also painted a landscape mural of [Swallow Falls](/work/swallow-falls/), a waterfall located in central Maryland.
 
+![The blank facade panels braced upright in the yard, one marked "Mural Side #1" in pencil](./05.jpg)
+
+*The facade panels built and braced, before any paint went on.*
+
 ![Detail of the hand-painted rock surface in blues and greys](./04.jpg)
