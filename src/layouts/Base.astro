@@ -1,5 +1,5 @@
 ---
-import { COMING_SOON, GALLERY, MURALS, SITE } from '../consts';
+import { COMING_SOON, CONCEPTUAL, MURALS, PAINTINGS, SITE } from '../consts';
 import '../styles/global.css';
 
 interface Props {
@@ -22,7 +22,8 @@ const home = COMING_SOON ? '/preview/' : '/';
 const nav = [
   { href: home, label: 'Installations' },
   { href: '/murals/', label: 'Murals' },
-  { href: '/gallery/', label: 'Gallery' },
+  { href: '/paintings/', label: 'Paintings' },
+  { href: '/conceptual/', label: 'Conceptual' },
   { href: '/compositions/', label: 'Compositions' },
   { href: '/about/', label: 'About' },
   { href: '/cv/', label: 'CV' },
@@ -35,15 +36,18 @@ const workSlug = path.startsWith('/work/') ? path.split('/')[2] : undefined;
 const workGroup = workSlug
   ? MURALS.includes(workSlug)
     ? 'murals'
-    : GALLERY.includes(workSlug)
-      ? 'gallery'
-      : 'installations'
+    : PAINTINGS.includes(workSlug)
+      ? 'paintings'
+      : CONCEPTUAL.includes(workSlug)
+        ? 'conceptual'
+        : 'installations'
   : undefined;
 
 const isActive = (href: string) => {
   if (href === home) return path === home || workGroup === 'installations';
   if (href === '/murals/') return path.startsWith('/murals') || workGroup === 'murals';
-  if (href === '/gallery/') return path.startsWith('/gallery') || workGroup === 'gallery';
+  if (href === '/paintings/') return path.startsWith('/paintings') || workGroup === 'paintings';
+  if (href === '/conceptual/') return path.startsWith('/conceptual') || workGroup === 'conceptual';
   return path.startsWith(href);
 };
 ---

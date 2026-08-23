@@ -9,9 +9,9 @@ export const SITE = {
   // shopUrl: 'https://...', // uncomment when the shop exists
 };
 
-// Which works show on the Murals and Gallery pages. Each entry is a work's
-// folder name in src/content/artworks/. Anything not listed in either place
-// shows on Installations.
+// Which works show on the Murals, Paintings and Conceptual pages. Each entry
+// is a work's folder name in src/content/artworks/. Anything not listed in any
+// of them shows on Installations.
 export const MURALS = [
   'ohio-native-flowers',
   'swallow-falls',
@@ -21,7 +21,8 @@ export const MURALS = [
   'school-of-fish',
   'wild-wyoming',
 ];
-export const GALLERY: string[] = [];
+export const PAINTINGS: string[] = [];
+export const CONCEPTUAL: string[] = [];
 
 // Temporary holding page while the site is being reworked.
 //   true  — "/" is the coming-soon landing, the rest of the site still builds

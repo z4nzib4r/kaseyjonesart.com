@@ -1,17 +1,23 @@
 ---
 import { getCollection } from 'astro:content';
 import { Image } from 'astro:assets';
-import { GALLERY, MURALS } from '../consts';
+import { CONCEPTUAL, MURALS, PAINTINGS } from '../consts';
 
 interface Props {
   // Which group of work to show. Omit to show everything.
-  only?: 'installations' | 'murals' | 'gallery';
+  only?: 'installations' | 'murals' | 'paintings' | 'conceptual';
 }
 
 const { only } = Astro.props;
 
 const groupOf = (id: string) =>
-  MURALS.includes(id) ? 'murals' : GALLERY.includes(id) ? 'gallery' : 'installations';
+  MURALS.includes(id)
+    ? 'murals'
+    : PAINTINGS.includes(id)
+      ? 'paintings'
+      : CONCEPTUAL.includes(id)
+        ? 'conceptual'
+        : 'installations';
 
 const artworks = (await getCollection('artworks'))
   .filter((work) => !only || groupOf(work.id) === only)
