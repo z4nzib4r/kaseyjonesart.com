@@ -25,4 +25,14 @@ In addition to the waterfall and facade structure, we also painted a landscape m
 
 *The facade panels built and braced, before any paint went on.*
 
+![Looking through the braced frames, the walls forming a passage to walk through](./06.jpg)
+
+![A volunteer stapling chicken wire along the top of a grey-painted panel](./07.jpg)
+
+![Chicken wire pulled out from the painted panel, catching the light](./08.jpg)
+
+![The panels under a tarp, roughed in with black brushwork and wire hung ready](./09.jpg)
+
+![Newspaper papier-mâché built up over the wire into the shape of the rock face](./10.jpg)
+
 ![Detail of the hand-painted rock surface in blues and greys](./04.jpg)
