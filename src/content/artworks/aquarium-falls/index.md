@@ -49,8 +49,6 @@ The facade itself was fabricated from sculpted chicken wire mesh and papier-mâc
 
 ![A boulder under construction, papier-mâché over a chicken wire frame](./02.jpg)
 
-![A newspaper-covered boulder on the grass beside one already primed white](./11.jpg)
-
 ![The primed slabs stacked up under the tarp, still unpainted](./12.jpg)
 
 ![The first faux painting going on, greys and blacks worked into the layers](./13.jpg)
