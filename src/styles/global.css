@@ -305,6 +305,11 @@ body.bare main {
   object-fit: cover;
 }
 
+.article-body .process-row:has(> p:only-child) {
+  grid-template-columns: minmax(0, 380px);
+  justify-content: center;
+}
+
 @media (max-width: 720px) {
   .article-body .process-row {
     grid-template-columns: repeat(2, 1fr);

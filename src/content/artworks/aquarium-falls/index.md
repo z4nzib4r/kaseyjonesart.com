@@ -27,8 +27,6 @@ All hands on deck with this installation, as much of the prep work for the bottl
 
 ![Volunteers washing and drilling bottles at the festival site](./03.jpg)
 
-![Aquarium volunteers in teal shirts drilling and rinsing bottles under the trees](./20.jpg)
-
 </div>
 
 In addition to the waterfall and facade structure, we also painted a landscape mural of [Swallow Falls](/work/swallow-falls/), a waterfall located in central Maryland.
@@ -68,3 +66,5 @@ The facade itself was fabricated from sculpted chicken wire mesh and papier-mâc
 </div>
 
 ![The finished facade standing in the yard, boulders piled around the cave opening](./15.jpg)
+
+![The whole installation at the festival, the lit waterfall spilling into a stream of bottles with stepping stones across it and children playing](./21.jpg)
