@@ -39,6 +39,20 @@ I made it to raise awareness about the effects of single-use plastics on our eco
 *The whole thing standing lit in the yard, arms out across the grass.*
 
 <video class="work-video" style="max-width: 340px;" controls preload="metadata" playsinline>
+  <source src="/octopus-yard-sequence.mp4" type="video/mp4" />
+  Your browser cannot play this video.
+</video>
+
+*The programmed sequence running out through all eight arms.*
+
+<video class="work-video" style="max-width: 340px;" controls preload="metadata" playsinline>
+  <source src="/octopus-yard-blue.mp4" type="video/mp4" />
+  Your browser cannot play this video.
+</video>
+
+*Held on a steady blue, the arms laid out across the grass.*
+
+<video class="work-video" style="max-width: 340px;" controls preload="metadata" playsinline>
   <source src="/octopus-yard-night-eye.mp4" type="video/mp4" />
   Your browser cannot play this video.
 </video>
@@ -50,5 +64,3 @@ I made it to raise awareness about the effects of single-use plastics on our eco
 ![A crowd gathered beneath the octopus in daylight, beside a National Aquarium sign reading "Lend a hand to build an arm"](./02.jpg)
 
 ![The arms and head lit teal and violet at night, seen from underneath](./03.jpg)
-
-![Head and arms glowing teal and violet above the crowd, the Sea Change wall behind](./06.jpg)
