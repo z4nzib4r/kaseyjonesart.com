@@ -24,5 +24,3 @@ Visitors didn't only look at it. A sign at the curb asked people to lend a hand 
 ![A crowd gathered beneath the octopus in daylight, beside a National Aquarium sign reading "Lend a hand to build an arm"](./02.jpg)
 
 ![The arms and head lit teal and violet at night, seen from underneath](./03.jpg)
-
-![Head and arms glowing teal and violet above the crowd, the Sea Change wall behind](./06.jpg)
