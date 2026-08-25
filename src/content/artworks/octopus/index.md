@@ -17,6 +17,34 @@ I made it to raise awareness about the effects of single-use plastics on our eco
 
 ![The nearly finished head under a work tarp, its eyes waiting on the ground](./05.jpg)
 
+<video class="work-video" style="max-width: 340px;" controls preload="metadata" playsinline>
+  <source src="/octopus-light-test.mp4" type="video/mp4" />
+  Your browser cannot play this video.
+</video>
+
+*Testing the lights before they went in — the strips still coiled on their reels, running through their colours.*
+
+<video class="work-video" style="max-width: 340px;" controls preload="metadata" playsinline>
+  <source src="/octopus-arm-lit.mp4" type="video/mp4" />
+  Your browser cannot play this video.
+</video>
+
+*A finished arm lit in the grass at night, colour travelling its whole length.*
+
+<video class="work-video" style="max-width: 340px;" controls preload="metadata" playsinline>
+  <source src="/octopus-yard-night.mp4" type="video/mp4" />
+  Your browser cannot play this video.
+</video>
+
+*The whole thing standing lit in the yard, arms out across the grass.*
+
+<video class="work-video" style="max-width: 340px;" controls preload="metadata" playsinline>
+  <source src="/octopus-yard-night-eye.mp4" type="video/mp4" />
+  Your browser cannot play this video.
+</video>
+
+*Closer on the head, the eye dark against the light coming through the bags.*
+
 ![The whole sculpture lit pink and purple at night, its arms reaching out between the trees](./01.jpg)
 
 ![A crowd gathered beneath the octopus in daylight, beside a National Aquarium sign reading "Lend a hand to build an arm"](./02.jpg)
