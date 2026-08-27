@@ -20,6 +20,7 @@ export const MURALS = [
   'portrait-of-youth',
   'school-of-fish',
   'wild-wyoming',
+  'appalachian-hills',
 ];
 export const PAINTINGS = ['river'];
 export const CONCEPTUAL = ['even-though-im-not-working-im-working', 'wrinkles-and-curves', 'working-mother-suit', 'humanity-vs-nature', 'beauty-and-the-blood'];
