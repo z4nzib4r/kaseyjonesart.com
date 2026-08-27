@@ -1,6 +1,7 @@
 ---
 title: Appalachian Hills
 year: 2012
+materials: Exterior paint
 location: Chauncey Public Library, Chauncey, OH
 cover: ./cover.jpg
 ---
