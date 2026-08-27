@@ -21,5 +21,5 @@ export const MURALS = [
   'school-of-fish',
   'wild-wyoming',
 ];
-export const PAINTINGS: string[] = [];
+export const PAINTINGS = ['river'];
 export const CONCEPTUAL = ['even-though-im-not-working-im-working', 'wrinkles-and-curves', 'working-mother-suit', 'humanity-vs-nature', 'beauty-and-the-blood'];
