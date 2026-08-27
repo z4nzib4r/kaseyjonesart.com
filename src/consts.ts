@@ -22,4 +22,4 @@ export const MURALS = [
   'wild-wyoming',
 ];
 export const PAINTINGS: string[] = [];
-export const CONCEPTUAL = ['even-though-im-not-working-im-working'];
+export const CONCEPTUAL = ['even-though-im-not-working-im-working', 'wrinkles-and-curves'];
