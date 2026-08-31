@@ -23,4 +23,4 @@ export const MURALS = [
   'appalachian-hills',
 ];
 export const PAINTINGS = ['river'];
-export const CONCEPTUAL = ['even-though-im-not-working-im-working', 'wrinkles-and-curves', 'working-mother-suit', 'humanity-vs-nature', 'beauty-and-the-blood', 'the-power-of-symbols'];
+export const CONCEPTUAL = ['even-though-im-not-working-im-working', 'wrinkles-and-curves', 'working-mother-suit', 'humanity-vs-nature', 'beauty-and-the-blood', 'the-power-of-symbols', 'fuegito'];
