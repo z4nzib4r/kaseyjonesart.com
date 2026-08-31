@@ -8,6 +8,8 @@ I compose and perform music alongside my visual practice. All of the music is wr
 
 [Blood Thoughts](https://youtu.be/YLH662Miv2c)
 
+[Wild Soul Gone](https://youtu.be/E52slK8EbHM)
+
 [Minds a' Galor](https://youtu.be/kv474TyseaI)
 
 [Listen on SoundCloud](https://soundcloud.com/user-221007606)
