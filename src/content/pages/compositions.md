@@ -6,6 +6,8 @@ I compose and perform music alongside my visual practice. All of the music is wr
 
 [Nothing of Me](https://youtu.be/7Y5a7iJ2SoE)
 
+[Blood Thoughts](https://youtu.be/YLH662Miv2c)
+
 [Minds a' Galor](https://youtu.be/kv474TyseaI)
 
 [Listen on SoundCloud](https://soundcloud.com/user-221007606)

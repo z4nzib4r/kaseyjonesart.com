@@ -6,6 +6,8 @@ cover: ./cover.jpg
 
 *Fuegito* — my little fire.
 
+[Blood Thoughts](https://youtu.be/YLH662Miv2c) — a composition I wrote and filmed during this body of work.
+
 ![A sheet of overlapping contour drawings, each outline labeled with its day, from Day 50 through Day 56](./01.jpg)
 
 ![Overlapping contours filling the sheet, Day 57 through Day 63](./02.jpg)
