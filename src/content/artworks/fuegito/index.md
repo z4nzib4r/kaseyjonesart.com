@@ -37,22 +37,22 @@ Pregnancy loss is loss. It is physical and deeply emotional, and is only fully e
 
 *Close on the glitter surface.*
 
-![Seated on the floor in front of the canvas, legs open, the red yarn falling from the base of the painted bulb and running out along the floor](./04.jpg)
+![Standing behind the canvas, the red yarn running from the base of the painted bulb down between my legs and along the floor](./04.jpg)
 *The Christmas My Baby Died, 2020 — oil and yarn on canvas, human legs, photography*
 
 The light bulb shape represents my womb. I chose this shape because it is often used in relationship with having an idea. In regards to this piece, it represents the false ideas I had when I began my third pregnancy journey; that I will have this baby and that nothing could go wrong.
 
-![Standing behind the canvas, the red yarn running from the base of the painted bulb down between my legs and along the floor](./05.jpg)
+![The painting hung on the wall on its own, the red yarn falling from the base of the bulb and pooling across the floor](./05.jpg)
 
-![The painting hung on the wall on its own, the red yarn falling from the base of the bulb and pooling across the floor](./06.jpg)
-
-![A marker drawing of the same image on notebook paper, dark flowers raining down over a red and yellow bulb](./07.jpg)
+![A marker drawing of the same image on notebook paper, dark flowers raining down over a red and yellow bulb](./06.jpg)
 *Study.*
 
-![The scroll hanging from the ceiling and running out across the floor, the outlined figures reaching down its length](./08.jpg)
+![The scroll hanging from the ceiling and running out across the floor, the outlined figures reaching down its length](./07.jpg)
 *Week by Week*
 
 I had intended to outline my body every day for the entire duration of the pregnancy, not knowing that the pregnancy would end in miscarriage. That is why the piece ends with the blood, the loss, and the flowers, which represent grief.
+
+![The scroll installed in the gallery, the red paint running down into the flowers at its foot](./08.jpg)
 
 ![A sheet of overlapping contour drawings, each outline labeled with its day, from Day 50 through Day 56](./09.jpg)
 
