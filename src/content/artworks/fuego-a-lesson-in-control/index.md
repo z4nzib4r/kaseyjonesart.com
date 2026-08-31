@@ -10,3 +10,12 @@ I carried our baby for 16 weeks; 112 days. These two paintings represent the cel
 In each of these paintings I applied 112 layers to represent every day that my body nurtured this baby. I then sanded, 112 times, off the surface of each painting. This methodical approach is a symbolic reference to the build up of hormones that I felt in my body. The sanding away of layers represents the residual hormones that lingered in my body for weeks after the loss.
 
 Pregnancy loss is loss. It is physical and deeply emotional, and is only fully experienced at the expense and surrender of a woman's body.
+
+![One of the two panels on the wall, the grey forms ringed by bands of red, gold and silver glitter](./01.jpg)
+
+<video class="work-video" controls preload="metadata" playsinline>
+  <source src="/fuego-detail.mp4" type="video/mp4" />
+  Your browser cannot play this video.
+</video>
+
+*Close on the glitter surface.*
