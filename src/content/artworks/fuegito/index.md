@@ -6,7 +6,12 @@ cover: ./cover.jpg
 
 *Fuegito* — my little fire.
 
+I had intended to outline my body every day for the entire duration of the pregnancy, not knowing that the pregnancy would end in miscarriage. That is why the piece ends with the blood, the loss, and the flowers, which represent grief.
+
 [Blood Thoughts](https://youtu.be/YLH662Miv2c) — a composition I wrote and filmed during this body of work.
+
+![The scroll hanging from the ceiling and running out across the floor, the outlined figures reaching down its length](./07.jpg)
+*Week by Week*
 
 ![A sheet of overlapping contour drawings, each outline labeled with its day, from Day 50 through Day 56](./01.jpg)
 

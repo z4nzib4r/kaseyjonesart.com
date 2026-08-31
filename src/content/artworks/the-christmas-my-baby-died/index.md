@@ -11,5 +11,7 @@ The bright red, orange and yellow symbolize the burn I felt during this pregnanc
 
 ![Standing behind the canvas, the red yarn running from the base of the painted bulb down between my legs and along the floor](./01.jpg)
 
-![A marker drawing of the same image on notebook paper, dark flowers raining down over a red and yellow bulb](./02.jpg)
+![The painting hung on the wall on its own, the red yarn falling from the base of the bulb and pooling across the floor](./02.jpg)
+
+![A marker drawing of the same image on notebook paper, dark flowers raining down over a red and yellow bulb](./03.jpg)
 *Study.*
