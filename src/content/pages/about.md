@@ -2,7 +2,7 @@
 title: About
 ---
 
-![Kasey Jones, photographed outdoors against green summer foliage](./kasey-jones.jpg)
+![Kasey Jones on a scaffold, brush in hand, painting a large mural of a face in red, white and blue](./kasey-jones.jpg)
 
 Hello! My name is Kasey Jones, and I am a multimedia artist and designer. My journey as an artist began in childhood and has taken root throughout nearly four decades of my life. I began drawing and painting in primary school, winning a drawing contest in kindergarten at the Butler Institute of American Art in Youngstown, Ohio. My mother encouraged my creativity, and as a result, I learned to encourage and trust it in myself.
 

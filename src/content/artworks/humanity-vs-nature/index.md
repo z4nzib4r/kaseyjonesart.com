@@ -21,3 +21,8 @@ cover: ./cover.jpg
 ![The branch burst seen closer, the suitcase open at its base amid the scattered debris](./06.jpg)
 
 ![A small root form mounted on the wall above a cut slice of log](./07.jpg)
+
+![A root and branch form mounted on the white wall, its cut limbs reaching down like fingers](./08.jpg)
+
+![The pieces hanging from the studio ceiling, rows of small pots along the floor and my daughter working at the table](./09.jpg)
+*In the studio.*

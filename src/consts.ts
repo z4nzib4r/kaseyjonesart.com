@@ -22,5 +22,5 @@ export const MURALS = [
   'wild-wyoming',
   'appalachian-hills',
 ];
-export const PAINTINGS = ['river', 'lemon-grove'];
+export const PAINTINGS = ['river', 'lemon-grove', 'on-water'];
 export const CONCEPTUAL = ['even-though-im-not-working-im-working', 'wrinkles-and-curves', 'working-mother-suit', 'humanity-vs-nature', 'beauty-and-the-blood', 'the-power-of-symbols', 'fuegito'];
