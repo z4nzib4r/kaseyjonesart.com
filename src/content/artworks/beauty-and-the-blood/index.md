@@ -1,5 +1,5 @@
 ---
-title: Beauty and the Blood
+title: Beauty & the Blood
 year: 2018
 cover: ./cover.jpg
 ---

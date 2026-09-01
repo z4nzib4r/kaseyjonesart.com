@@ -290,9 +290,15 @@ body.bare main {
 }
 
 .article-body .small-works img {
-  max-height: 420px;
+  max-height: var(--work-max-height, 420px);
   width: auto;
   max-width: 100%;
+}
+
+/* A gentler reduction, for large-format work that only needs bringing down
+   a little rather than shrinking to a contact-sheet scale. */
+.article-body .works-reduced {
+  --work-max-height: 560px;
 }
 
 /* Process and progress shots, shown smaller so they read as a contact sheet
