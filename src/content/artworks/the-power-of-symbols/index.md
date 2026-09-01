@@ -15,3 +15,5 @@ cover: ./cover.jpg
 
 ![A small standing figure wrapped in dollar bills, a coin halo behind her head, set in a shrine on a black base](./03.jpg)
 *What We Really Worship*
+
+![A framed devotional print of the Madonna and child, a Snickers wrapper collaged across the mother's arm and shoulder](./04.jpg)
