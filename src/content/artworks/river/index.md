@@ -21,3 +21,7 @@ Abstract paintings that focus on color harmony and contrast.
 ![A tall panel of teal and cream, an orange bloom opening at the top of a rust-dark column](./07.jpg)
 
 ![A wide field of marbled blue and white, veined and pooling like water in motion](./08.jpg)
+
+![A pale blue and white expanse, a bright cracked ridge running across it like ice breaking over water](./09.jpg)
+
+![A field of deep and pale blue, flecked with white and rust, drifting like sediment through water](./10.jpg)
