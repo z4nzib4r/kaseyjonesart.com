@@ -293,6 +293,9 @@ body.bare main {
   max-height: var(--work-max-height, 420px);
   width: auto;
   max-width: 100%;
+  /* Images are display:block site-wide, so text-align on the paragraph can't
+     center them — the auto margins are what actually do it. */
+  margin-inline: auto;
 }
 
 /* A gentler reduction, for large-format work that only needs bringing down
