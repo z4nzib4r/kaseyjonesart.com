@@ -4,7 +4,7 @@ year: 2021
 cover: ./cover.jpg
 ---
 
-*Fuegito* — my little fire.
+*Fuegito* — my little fire. A body of work developed over 2019–2021.
 
 The bright red, orange and yellow symbolize the burn I felt during this pregnancy as my womb often felt on fire. It is because of this that this body of work is titled Fuego, or Fuegito — my little fire.
 
