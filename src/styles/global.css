@@ -283,6 +283,18 @@ body.bare main {
   text-align: center;
 }
 
+/* Small-format works, shown at a modest scale rather than stretched to the
+   full width of the article. Each keeps its own proportions. */
+.article-body .small-works p:has(> img) {
+  text-align: center;
+}
+
+.article-body .small-works img {
+  max-height: 420px;
+  width: auto;
+  max-width: 100%;
+}
+
 /* Process and progress shots, shown smaller so they read as a contact sheet
    rather than competing with the finished work. */
 .article-body .process-row {

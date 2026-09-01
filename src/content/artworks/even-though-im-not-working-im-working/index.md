@@ -8,3 +8,5 @@ cover: ./cover.jpg
 
 ![A hand mixer painted gold, beaters attached, resting on a white plinth](./02.jpg)
 *One of the props from the photographs.*
+
+![A tall stack of folded laundry, every piece painted gold, sitting on a white plinth](./03.jpg)

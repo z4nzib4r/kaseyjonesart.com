@@ -5,6 +5,8 @@ materials: Acrylic, oil and mixed media
 cover: ./cover.jpg
 ---
 
+<div class="small-works">
+
 ![Soft washes of green, ochre and rose across a pale ground, a band of blue and yellow running down the right edge](./01.jpg)
 *Bark*
 
@@ -26,3 +28,5 @@ cover: ./cover.jpg
 ![A worked surface of tan and ochre, scratched writing across the top, a thick white column of paint falling down the right side](./08.jpg)
 
 ![Painted on board, a black line curving through grey water between pale sand and turquoise, the wood grain showing through](./09.jpg)
+
+</div>
