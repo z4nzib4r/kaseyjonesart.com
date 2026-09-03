@@ -20,7 +20,7 @@ I painted the four corners of the Amesville Elementary Running Club's route, so 
 
 ![A woman crouched on the white-primed trillium mural, brushing red paint along one of the outlines](./05.jpg)
 
-![Close overhead view of the finished coneflower, its pink petals and yellow center against the blue and black-and-white striped rings, my feet at the edge](./10.jpg)
+![Close overhead view of the finished coneflower, its pink petals and yellow center against the blue and black-and-white striped rings](./10.jpg)
 
 <div class="sketch-row">
 
