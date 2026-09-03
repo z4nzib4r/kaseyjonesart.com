@@ -22,6 +22,17 @@ const groupOf = (id: string) =>
 const artworks = (await getCollection('artworks'))
   .filter((work) => !only || groupOf(work.id) === only)
   .sort((a, b) => a.data.order - b.data.order || b.data.year - a.data.year);
+
+// A work can supply its own square tile as thumb.jpg in its folder, for when a
+// crop reads better small than the cover does. Without one, the cover is used.
+const thumbs = import.meta.glob<ImageMetadata>(
+  '/src/content/artworks/*/thumb.{jpg,jpeg,png,webp}',
+  { eager: true, import: 'default' },
+);
+const tileOf = (work: (typeof artworks)[number]) =>
+  Object.entries(thumbs).find(([path]) =>
+    path.startsWith(`/src/content/artworks/${work.id}/thumb.`),
+  )?.[1] ?? work.data.cover;
 ---
 
 {artworks.length === 0 ? (
@@ -32,7 +43,7 @@ const artworks = (await getCollection('artworks'))
       <li>
         <a href={`/work/${work.id}/`}>
           <Image
-            src={work.data.cover}
+            src={tileOf(work)}
             alt={`${work.data.title}, ${work.data.year}`}
             widths={[400, 800, 1200]}
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
