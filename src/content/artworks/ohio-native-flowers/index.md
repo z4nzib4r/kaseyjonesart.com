@@ -12,6 +12,8 @@ Asphalt art encourages drivers to slow down and stay alert for pedestrians and c
 
 I painted the four corners of the Amesville Elementary Running Club's route, so the murals mark a point of local pride while making the streets safer for the students who run them. Each one features Ohio native flowers: Trillium, Celandine Poppy, Purple Coneflower, and Geranium.
 
+![The finished trillium mural spanning the width of the street, a white three-petaled flower ringed by red and black-and-white rippling stripes](./11.jpg)
+
 ![Circular street mural of a lavender geranium blossom ringed by magenta and black-and-white rippling stripes](./01.jpg)
 
 ![A circular flower mural painted at a village intersection, with houses and sidewalks beyond](./02.jpg)

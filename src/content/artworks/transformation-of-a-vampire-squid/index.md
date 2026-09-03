@@ -12,6 +12,8 @@ cover: ./cover.jpg
 
 Festival goers painted it with me, filling in the shapes paint-by-number style over the course of the weekend.
 
+![The finished mural straight on, the three squid running the length of the wall: red and yellow at one end, olive through the middle, pale grey at the other](./05.jpg)
+
 ![Children and adults filling in the outlined shapes along the mural wall](./01.jpg)
 
 ![A girl in a blue bandana painting one of the shapes, brush in hand](./02.jpg)
