@@ -2,10 +2,7 @@
 
 Static portfolio site for artist Kasey Jones, built with Astro, deployed to GitHub Pages.
 
-**Who you're working with matters.** This repo has two users:
-
-- **Kasey** — the artist and site owner. She is not technical. Assume every session is with Kasey unless the user identifies as Jacob. Everything in this file about plain language, publishing approval, and guardrails exists for her.
-- **Jacob** — set up the site and handles design and infrastructure. Sessions with Jacob are normal engineering collaboration.
+**Who you're working with matters.** This site belongs to Kasey — the artist and owner. She is not technical, and she is the only person you answer to here. Everything in this file about plain language and guardrails exists so she can run her own site without needing to know how any of it works.
 
 ## Working with Kasey
 
@@ -16,7 +13,8 @@ Kasey works in Claude Code on the web (claude.ai/code) with this repo connected.
 - **Plain English only.** Never show her git commands, diffs, file paths, code, or error text unless she asks. Talk about "the site," "the Tidelines page," "publishing" — never repos, commits, builds, or frontmatter.
 - **Translate her words:** "publish" / "make it live" = push to GitHub — which happens automatically as part of every change. "Undo" = revert. "The gallery" = the home page.
 - **Ask before, not after.** Since there's no preview, the conversation is where ambiguity gets resolved. If her request is unclear, ask — in her terms ("Should the new piece go at the top of the gallery or the bottom?"). Once you're sure what she wants, make the complete change and put it live; never publish a half-finished state.
-- Content changes and modest style tweaks are yours to handle. If she asks for something structurally big (new page types, redesign, shop), do a conservative version if you safely can, and suggest she loop in Jacob for the rest.
+- **Don't hand work back to her.** She asked because she wants it done. Content, style tweaks, new pages, layout changes, fixing a broken deploy — all of it is yours to figure out and finish. There is nobody else to escalate to.
+- **Big things get done too, carefully.** If she asks for something structural (a new kind of page, a redesign, a shop), do it — but talk through the shape of it with her first in plain terms, and build it in a way that's easy to undo if she doesn't like it. Not liking a change is normal and cheap; see Undo below.
 
 ## The routine for every change
 
@@ -27,7 +25,7 @@ Kasey works in Claude Code on the web (claude.ai/code) with this repo connected.
    - Bad: `Update index.astro`, `Fix frontmatter`
    - End every commit message with: `Co-Authored-By: Claude <noreply@anthropic.com>`
 4. Push: `git push origin main`. There is no preview step — publishing is how Kasey sees her change, so push as soon as the build passes and the change is complete.
-5. Tell her in plain words what changed and that the site will show it at kaseyjonesart.com in about two minutes (refresh with Cmd+Shift+R if it looks stale). If it still hasn't updated after a few minutes: check the deploy with `gh run list --limit 3` if `gh` works in this session; otherwise, if it stays wrong, that's a "loop in Jacob" moment.
+5. Tell her in plain words what changed and that the site will show it at kaseyjonesart.com in about two minutes (refresh with Cmd+Shift+R if it looks stale). If it still hasn't updated after a few minutes, check the deploy yourself with `gh run list --limit 3` and fix whatever's wrong — don't leave her waiting on it or ask her to check anything technical.
 6. If she sees it live and doesn't like it, that's an undo (below) — reverted and pushed right away, same flow.
 
 ## Undo and rollback
@@ -83,7 +81,7 @@ node -e "require('sharp')('/path/to/original.jpg').rotate().resize({width:2400,h
 - **About page:** `src/content/pages/about.md`
 - **CV page:** `src/content/pages/cv.md` (`##` headings for sections, `-` list items)
 - **Contact email / Instagram / future shop link:** `src/consts.ts`
-- **Design** (rarely touched): layout `src/layouts/Base.astro`, styles `src/styles/global.css`, pages `src/pages/`
+- **Design:** layout `src/layouts/Base.astro`, styles `src/styles/global.css`, pages `src/pages/`
 
 ## Hard rules
 
@@ -91,11 +89,11 @@ node -e "require('sharp')('/path/to/original.jpg').rotate().resize({width:2400,h
 - Never push without a passing `npm run build`. This is the only gate between an edit and the live site — do not skip it, ever.
 - Never push anything Kasey didn't ask for in the current conversation.
 - Never touch files outside the repo except to *copy* photos in.
-- Don't edit `.github/workflows/`, `package.json`, `astro.config.mjs`, or `src/content.config.ts` in sessions with Kasey — those are Jacob's. If a change seems to need them, that's a "loop in Jacob" moment.
-- If git ends up in a state you don't fully understand, stop and prefer the boring fix (revert forward). When truly stuck, tell Kasey plainly: "Something on my end needs Jacob's attention" — a broken local checkout is recoverable; a clever fix that rewrites history may not be.
+- The plumbing — `.github/workflows/`, `package.json`, `astro.config.mjs`, `src/content.config.ts` — is fair game when a change genuinely needs it, but treat it as load-bearing: change the least you can, make sure the build passes, and tell her in plain words what you did and why. If a plumbing change goes wrong, revert it forward like anything else.
+- If git ends up in a state you don't fully understand, stop and prefer the boring fix (revert forward). A broken local checkout is recoverable; a clever fix that rewrites history may not be. Tell her plainly what happened and what you did about it — she'd rather hear "that didn't work, so I put it back how it was" than nothing.
 
 ## Technical reference
 
 - Astro 5, static output. Content collections defined in `src/content.config.ts`; the artworks schema is what makes bad content fail the build instead of shipping broken pages.
-- Node 22 / npm. `npm run build` → `dist/`. If `node_modules` is missing (web sessions start from a fresh clone), run `npm install` first. `npm run dev` → http://localhost:4321, for local (Jacob) sessions only.
+- Node 22 / npm. `npm run build` → `dist/`. If `node_modules` is missing (web sessions start from a fresh clone), run `npm install` first. `npm run dev` → http://localhost:4321, useful only in local sessions — Kasey's web sessions have no way to view it.
 - Deploys: push to `main` → GitHub Actions (`.github/workflows/deploy.yml`) builds and publishes to GitHub Pages. A failed build never takes down the live site; it keeps serving the last good deploy.
