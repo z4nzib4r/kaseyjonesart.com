@@ -65,7 +65,8 @@ main {
 
 .site-header nav {
   display: flex;
-  gap: 1.75rem;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.75rem;
 }
 
 .site-header nav a {
@@ -83,6 +84,95 @@ main {
 
 .site-header nav a[aria-current='page'] {
   border-bottom: 1px solid var(--ink);
+}
+
+/* ---------- landing page ---------- */
+
+/* A bare page has no header or footer, so main centres in the viewport. */
+body.bare {
+  display: flex;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+body.bare main {
+  margin: auto;
+  padding: var(--pad);
+  min-height: 0;
+  text-align: center;
+}
+
+/* The landing fills the window: slideshow, a veil over it for contrast, then
+   the title and Enter button on top. Fixed so it ignores main's padding. */
+.landing {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+.landing-slides img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* The photos are square crops, so a wide window trims top and bottom; each
+     slide sets its own object-position in index.astro to keep its subject. */
+  object-position: 50% 35%;
+  opacity: 0;
+  /* The crossfade itself — keyframes, timing and the reduced-motion still —
+     is generated in index.astro, so it follows that page's list of slides. */
+}
+
+/* Transparent black over the photos so white type stays readable. */
+.landing-veil {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.landing-inner {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(2rem, 6vh, 3.5rem);
+  padding: var(--pad);
+  text-align: center;
+  color: #fff;
+}
+
+.landing-title {
+  margin: 0;
+  font-size: clamp(2rem, 8.5vw, 6rem);
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0.12em;
+  text-indent: 0.12em;
+  text-transform: uppercase;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.45);
+}
+
+.landing-enter {
+  display: inline-block;
+  padding: 1rem 3.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  font-size: clamp(0.85rem, 2.2vw, 1rem);
+  letter-spacing: 0.3em;
+  text-indent: 0.3em;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.15);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.landing-enter:hover,
+.landing-enter:focus-visible {
+  background: #fff;
+  color: var(--ink);
 }
 
 /* ---------- gallery ---------- */
@@ -153,10 +243,11 @@ main {
   line-height: 1.75;
 }
 
-/* Markdown wraps a standalone image in a <p>; let those span full width. */
+/* Markdown wraps a standalone image in a <p>; give those a little more room
+   than the text, but keep them narrower than the full article width. */
 .article-body p:has(> img) {
-  max-width: none;
-  margin: 2.75rem 0;
+  max-width: 620px;
+  margin: 2.75rem auto;
 }
 
 /* A fully-italic line directly under an image reads as its caption. */
@@ -165,6 +256,130 @@ main {
   font-size: 0.85rem;
   color: var(--muted);
   text-align: center;
+}
+
+/* A lone link opening a work page reads as the venue credit under the image. */
+.article-body > p:first-child:has(> a:only-child) {
+  margin-top: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* Video sits at the same width as the photos in a work page. */
+.article-body .work-video {
+  display: block;
+  width: 100%;
+  max-width: 620px;
+  margin: 2.75rem auto 0;
+  background: var(--line);
+}
+
+.article-body .work-video + p:has(> em:only-child) {
+  max-width: 620px;
+  margin: 0.75rem auto 2.75rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* Small-format works, shown at a modest scale rather than stretched to the
+   full width of the article. Each keeps its own proportions. */
+.article-body .small-works p:has(> img) {
+  text-align: center;
+}
+
+.article-body .small-works img {
+  max-height: var(--work-max-height, 420px);
+  width: auto;
+  max-width: 100%;
+  /* Images are display:block site-wide, so text-align on the paragraph can't
+     center them — the auto margins are what actually do it. */
+  margin-inline: auto;
+}
+
+/* A gentler reduction, for large-format work that only needs bringing down
+   a little rather than shrinking to a contact-sheet scale. */
+.article-body .works-reduced {
+  --work-max-height: 560px;
+}
+
+/* Process and progress shots, shown smaller so they read as a contact sheet
+   rather than competing with the finished work. */
+.article-body .process-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2.5rem 0;
+  align-items: start;
+}
+
+.article-body .process-row p,
+.article-body .process-row p:has(> img) {
+  max-width: none;
+  margin: 0;
+}
+
+.article-body .process-row img {
+  display: block;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.article-body .process-row:has(> p:only-child) {
+  grid-template-columns: minmax(0, 380px);
+  justify-content: center;
+}
+
+@media (max-width: 720px) {
+  .article-body .process-row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+  }
+}
+
+/* A row of small concept sketches, each with its caption beneath it. */
+.article-body .sketch-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem 1.25rem;
+  margin: 3rem 0;
+  align-items: start;
+}
+
+.article-body .sketch-row p,
+.article-body .sketch-row p:has(> img) {
+  max-width: none;
+  margin: 0;
+}
+
+.article-body .sketch-row img {
+  display: block;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.article-body .sketch-row em {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: var(--muted);
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .article-body .sketch-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.gallery-empty {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--pad);
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
 .back-link {
@@ -184,6 +399,28 @@ main {
 
 .prose {
   max-width: 62ch;
+}
+
+/* Portraits on text pages read as a headshot, not a banner. */
+.prose img {
+  max-width: 260px;
+  margin: 0 0 1.75rem;
+}
+
+/* The About page: portrait centred over left-aligned text. */
+.prose-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prose-centered h1 {
+  text-align: center;
+}
+
+.prose-centered img {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .prose h1 {

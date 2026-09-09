@@ -1,25 +1,49 @@
 ---
-import { SITE } from '../consts';
+import { CONCEPTUAL, MURALS, PAINTINGS, SITE } from '../consts';
 import '../styles/global.css';
 
 interface Props {
   title?: string;
   description?: string;
+  // Strips the header and footer for a standalone page (the landing page).
+  bare?: boolean;
 }
 
-const { title, description = SITE.description } = Astro.props;
+const { title, description = SITE.description, bare = false } = Astro.props;
 const pageTitle = title ? `${title} — ${SITE.artist}` : SITE.artist;
 const path = Astro.url.pathname;
 
 const nav = [
-  { href: '/', label: 'Work' },
+  { href: '/installations/', label: 'Installations' },
+  { href: '/murals/', label: 'Murals' },
+  { href: '/paintings/', label: 'Paintings' },
+  { href: '/conceptual/', label: 'Conceptual' },
+  { href: '/compositions/', label: 'Compositions' },
   { href: '/about/', label: 'About' },
   { href: '/cv/', label: 'CV' },
+  { href: '/shop/', label: 'Shop' },
   { href: '/contact/', label: 'Contact' },
 ];
 
-const isActive = (href: string) =>
-  href === '/' ? path === '/' || path.startsWith('/work/') : path.startsWith(href);
+// A work's own page counts as belonging to whichever section it appears in.
+const workSlug = path.startsWith('/work/') ? path.split('/')[2] : undefined;
+const workGroup = workSlug
+  ? MURALS.includes(workSlug)
+    ? 'murals'
+    : PAINTINGS.includes(workSlug)
+      ? 'paintings'
+      : CONCEPTUAL.includes(workSlug)
+        ? 'conceptual'
+        : 'installations'
+  : undefined;
+
+const isActive = (href: string) => {
+  if (href === '/installations/') return path.startsWith('/installations') || workGroup === 'installations';
+  if (href === '/murals/') return path.startsWith('/murals') || workGroup === 'murals';
+  if (href === '/paintings/') return path.startsWith('/paintings') || workGroup === 'paintings';
+  if (href === '/conceptual/') return path.startsWith('/conceptual') || workGroup === 'conceptual';
+  return path.startsWith(href);
+};
 ---
 
 <html lang="en">
@@ -33,23 +57,27 @@ const isActive = (href: string) =>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="canonical" href={new URL(path, Astro.site)} />
   </head>
-  <body>
-    <header class="site-header">
-      <a class="wordmark" href="/">{SITE.artist}</a>
-      <nav>
-        {nav.map(({ href, label }) => (
-          <a href={href} aria-current={isActive(href) ? 'page' : undefined}>{label}</a>
-        ))}
-      </nav>
-    </header>
+  <body class={bare ? 'bare' : undefined}>
+    {!bare && (
+      <header class="site-header">
+        <a class="wordmark" href="/">{SITE.artist}</a>
+        <nav>
+          {nav.map(({ href, label }) => (
+            <a href={href} aria-current={isActive(href) ? 'page' : undefined}>{label}</a>
+          ))}
+        </nav>
+      </header>
+    )}
 
     <main>
       <slot />
     </main>
 
-    <footer class="site-footer">
-      <p>© {new Date().getFullYear()} {SITE.artist}</p>
-      <p><a href={SITE.instagram} target="_blank" rel="noopener">Instagram</a></p>
-    </footer>
+    {!bare && (
+      <footer class="site-footer">
+        <p>© {new Date().getFullYear()} {SITE.artist}</p>
+        <p><a href={SITE.instagram} target="_blank" rel="noopener">Instagram</a></p>
+      </footer>
+    )}
   </body>
 </html>
