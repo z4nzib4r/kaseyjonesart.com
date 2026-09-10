@@ -27,6 +27,12 @@ All hands on deck with this installation, as much of the prep work for the bottl
 
 ![Volunteers washing and drilling bottles at the festival site](./03.jpg)
 
+![A National Aquarium volunteer holding up a bottle threaded onto the line, bagged bottles stacked behind her](./22.jpg)
+
+![A child's hands feeding a bottle onto the strand, cut bottles waiting in the grass](./23.jpg)
+
+![A girl sitting cross-legged in the grass threading a bottle onto the line, the bottle stream behind her](./24.jpg)
+
 </div>
 
 In addition to the waterfall and facade structure, we also painted a landscape mural of [Swallow Falls](/work/swallow-falls/), a waterfall located in central Maryland.
@@ -51,6 +57,8 @@ The facade itself was fabricated from sculpted chicken wire mesh and papier-mâc
 
 ![The primed slabs stacked up under the tarp, still unpainted](./12.jpg)
 
+![The unpainted facade standing on the grass, the cave opening cut through it and boulders set around its foot](./25.jpg)
+
 ![The first faux painting going on, greys and blacks worked into the layers](./13.jpg)
 
 ![The painted rock face and boulders seen from the side](./16.jpg)
@@ -61,8 +69,12 @@ The facade itself was fabricated from sculpted chicken wire mesh and papier-mâc
 
 ![Detail of the hand-painted rock surface in blues and greys](./04.jpg)
 
+![Moss laid into the seams between the finished boulders](./26.jpg)
+
 </div>
 
 ![The finished facade standing in the yard, boulders piled around the cave opening](./15.jpg)
 
 ![The whole installation at the festival, the lit waterfall spilling into a stream of bottles with stepping stones across it and children playing](./21.jpg)
+
+![The installation in the rain, the lit falls and bottle stream running between the trees as visitors pass with umbrellas](./27.jpg)
