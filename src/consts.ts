@@ -13,6 +13,7 @@ export const SITE = {
 // is a work's folder name in src/content/artworks/. Anything not listed in any
 // of them shows on Installations.
 export const MURALS = [
+  'chesapeake-bay-information-map',
   'ohio-native-flowers',
   'swallow-falls',
   'transformation-of-a-vampire-squid',
