@@ -25,6 +25,9 @@ Visitors didn't only look at it. A sign at the curb asked people to lend a hand 
 
 ![The arms and head lit teal and violet at night, seen from underneath](./03.jpg)
 
+![The pledge wall, a white banner covered in thousands of small coloured buttons that spell out the words SEA CHANGE, with the National Aquarium logo beneath](./09.jpg)
+*The pledge wall at the end of the weekend, the buttons filling in the words.*
+
 <div class="concept-row">
 
 ![Mock-up drawing of the octopus on the festival lawn, one arm curling over a striped tent while a family walks past on the path](./06.jpg)
