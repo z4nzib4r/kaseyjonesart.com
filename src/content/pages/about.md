@@ -2,7 +2,13 @@
 title: About
 ---
 
+<div class="photo-row">
+
 ![Kasey Jones on a scaffold, brush in hand, painting a large mural of a face in red, white and blue](./kasey-jones.jpg)
+
+![Kasey Jones and visitors weaving strips of plastic bag into a sculpture on the Inner Harbor promenade](./kasey-jones-weaving.jpg)
+
+</div>
 
 Kasey Jones is a multidisciplinary artist, designer, and educator based in Athens, Ohio. Her practice spans public art, murals, painting, sculpture, installation, photography, textiles, light, video, and sound. Working across disciplines and scales, Jones creates work characterized by bold color, high contrast, rhythm, pattern, and a strong sense of composition.
 
