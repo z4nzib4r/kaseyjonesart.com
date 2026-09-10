@@ -48,7 +48,7 @@ const tileOf = (work: (typeof artworks)[number]) =>
             widths={[400, 800, 1200]}
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           />
-          <p class="caption">{work.data.title}, {work.data.year}</p>
+          <p class="caption">{work.data.title}, {work.data.yearLabel ?? work.data.year}</p>
         </a>
       </li>
     ))}

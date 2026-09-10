@@ -13,8 +13,8 @@ export async function getStaticPaths() {
 
 const { work } = Astro.props;
 const { Content } = await render(work);
-const { title, year, materials, dimensions, location } = work.data;
-const meta = [year, materials, dimensions, location].filter(Boolean).join(' · ');
+const { title, year, yearLabel, materials, dimensions, location } = work.data;
+const meta = [yearLabel ?? year, materials, dimensions, location].filter(Boolean).join(' · ');
 ---
 
 <Base title={title} description={`${title} (${year}) — ${materials ?? 'work'} by Kasey Jones.`}>

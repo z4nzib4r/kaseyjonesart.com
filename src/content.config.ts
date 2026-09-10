@@ -14,6 +14,9 @@ const artworks = defineCollection({
     z.object({
       title: z.string(),
       year: z.number(),
+      // Shown in place of the year when a work was made over a span of time,
+      // e.g. '2017-2018'. The year above still decides gallery order.
+      yearLabel: z.string().optional(),
       // Shown as the square tile on the home page and at the top of the article.
       cover: image(),
       materials: z.string().optional(),
