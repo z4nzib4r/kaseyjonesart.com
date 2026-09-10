@@ -31,6 +31,9 @@ Alongside it I painted the [Chesapeake Bay Information Map](/work/chesapeake-bay
 
 ![The lit surface filling the frame, blue and white light breaking across the straw relief](./08.jpg)
 
+![The prototype panel lit from behind, thousands of straw ends glowing green through to blue, LED strips and wiring on the bench beside it](./14.jpg)
+*The prototype we built before the full piece.*
+
 <div class="process-row">
 
 ![Straw ends massed across the surface, the cut tubes fanning out from a darker channel](./09.jpg)
