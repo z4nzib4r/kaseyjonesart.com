@@ -331,6 +331,12 @@ body.bare main {
   justify-content: center;
 }
 
+/* Four shots square off better two-by-two than as a row of three with a
+   lone straggler underneath. */
+.article-body .process-row:has(> p:nth-child(4):last-child) {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 @media (max-width: 720px) {
   .article-body .process-row {
     grid-template-columns: repeat(2, 1fr);
