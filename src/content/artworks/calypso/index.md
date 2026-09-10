@@ -6,11 +6,11 @@ location: National Aquarium, Baltimore, MD
 cover: ./cover.jpg
 ---
 
+[National Aquarium](https://aqua.org/)
+
 <iframe class="work-video" style="aspect-ratio: 16 / 9; height: auto; border: 0;" src="https://www.youtube.com/embed/wbinQpfAEnM" title="Kasey Jones on Calypso" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 
 *Talking about the project.*
-
-[National Aquarium](https://aqua.org/)
 
 *Calypso* was my first project with the National Aquarium: a life-size sea turtle woven from single-use plastic bags over a chicken wire frame.
 
