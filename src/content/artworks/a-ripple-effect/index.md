@@ -25,6 +25,18 @@ Alongside it I painted the [Chesapeake Bay Information Map](/work/chesapeake-bay
 
 ![Soft raking light across the straw relief, the shoreline reading as a pale ridge](./04.jpg)
 
+<div class="process-row">
+
+![Straw ends fanning out from a tight circular burst, the tubes packed close as honeycomb](./15.jpg)
+
+![Layered bands of cut straw ends stepping across the surface in low relief](./16.jpg)
+
+![The straws seen side on, their cut ends catching the light along the lower edge](./17.jpg)
+
+![Looking down across the relief, the straw clusters massing like cloud](./18.jpg)
+
+</div>
+
 ![A man in a white cap reaching out to touch the piece, lit deep blue in the dark](./06.jpg)
 
 ![A small girl with beaded braids pressing both hands against the glowing blue surface](./07.jpg)
