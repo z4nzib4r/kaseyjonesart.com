@@ -6,11 +6,17 @@ cover: ./cover.jpg
 
 Abstract paintings that focus on color harmony and contrast.
 
+![Blue reeds and bare branches drawn across a pale ground of green, grey and ochre](./11.jpg)
+
+![The same painting across the dining room, the long glass table set beneath it and plants massed at the window](./12.jpg)
+
 ![A wash of yellow and orange laid over a pale ground, a band of rust running through the middle](./01.jpg)
 
 ![Green and yellow above, rust and ochre below, with pale light breaking through the center](./02.jpg)
 
 ![A square field of gold, mottled with red and olive](./03.jpg)
+
+![The gold painting above the fireplace in the sitting room, plants along the shelves and a skylight overhead](./13.jpg)
 
 ![A tall panel, a pale white form rising through grey and black with yellow at the edges](./04.jpg)
 
