@@ -8,6 +8,8 @@ cover: ./cover.jpg
 
 *Swallow Falls* is a painted mural made to accompany [*Aquarium Falls*](/work/aquarium-falls/), the forty foot waterfall built from single-use plastic water bottles that stood in front of it.
 
+![The finished mural standing outdoors on its panels, black-painted posts either side and real trees overhanging it](./06.jpg)
+
 ![Kasey on a step stool painting in the sky at the top of the mural, the rest of the falls still sketched in pencil](./01.jpg)
 
 *Blocking in the sky, with photographs of the real Swallow Falls taped up for reference.*
