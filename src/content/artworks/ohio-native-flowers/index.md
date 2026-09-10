@@ -22,6 +22,8 @@ I painted the four corners of the Amesville Elementary Running Club's route, so 
 
 ![Close overhead view of the finished coneflower, its pink petals and yellow center against the blue and black-and-white striped rings](./10.jpg)
 
+![Overhead view of the finished celandine poppy, four yellow petals inside green rings and black-and-white rippling stripes on the asphalt](./11.jpg)
+
 <div class="sketch-row">
 
 ![Hand-drawn concept design of a white trillium outlined in red, with green leaves and black-and-white striped rings](./06.jpg)
