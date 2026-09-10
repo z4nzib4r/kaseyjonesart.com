@@ -6,6 +6,8 @@ title: About
 
 ![Kasey Jones on a scaffold, brush in hand, painting a large mural of a face in red, white and blue](./kasey-jones.jpg)
 
+![Kasey Jones standing arms folded in the middle of her gallery show, her paintings hung on the walls around her](./kasey-jones-gallery.jpg)
+
 ![Kasey Jones and visitors weaving strips of plastic bag into a sculpture on the Inner Harbor promenade](./kasey-jones-weaving.jpg)
 
 </div>

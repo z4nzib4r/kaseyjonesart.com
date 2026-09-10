@@ -506,13 +506,21 @@ body.bare main {
   margin-right: auto;
 }
 
-/* Two photos side by side at the head of a text page. Both are landscape, so
-   a shared 4:3 tile lines them up with almost nothing cropped away. */
+/* Photos side by side at the head of a text page. All are landscape, so a
+   shared 4:3 tile lines them up with almost nothing cropped away. */
 .prose .photo-row {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.75rem;
   margin: 0 0 1.75rem;
+}
+
+/* Three tiles want more room than the text column gives them, so past a point
+   the row reaches out either side of it. Main has the width to spare. */
+@media (min-width: 860px) {
+  .prose .photo-row {
+    margin-inline: -6rem;
+  }
 }
 
 .prose .photo-row p,
