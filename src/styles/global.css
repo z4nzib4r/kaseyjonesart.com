@@ -374,6 +374,54 @@ body.bare main {
   }
 }
 
+/* Concept sketches and mock-ups, tiled across the foot of a work page. Each
+   keeps its own proportions — these are drawings, and a square crop would cut
+   off the notes and the site around the piece. */
+.article-body .concept-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem 1.25rem;
+  margin: 3rem 0 0;
+  align-items: start;
+}
+
+.article-body .concept-row p,
+.article-body .concept-row p:has(> img) {
+  max-width: none;
+  margin: 0;
+}
+
+/* A uniform tile height lines the captions up across the row; contain keeps
+   each drawing whole, since cropping one would cut its notes off. */
+.article-body .concept-row img {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.article-body .concept-row em {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: var(--muted);
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .article-body .concept-row {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  /* One per row on a phone, so each drawing gets its full height. */
+  .article-body .concept-row img {
+    height: auto;
+  }
+}
+
 .gallery-empty {
   max-width: var(--max-width);
   margin: 0 auto;

@@ -24,3 +24,16 @@ Visitors didn't only look at it. A sign at the curb asked people to lend a hand 
 ![A crowd gathered beneath the octopus in daylight, beside a National Aquarium sign reading "Lend a hand to build an arm"](./02.jpg)
 
 ![The arms and head lit teal and violet at night, seen from underneath](./03.jpg)
+
+<div class="concept-row">
+
+![Mock-up drawing of the octopus on the festival lawn, one arm curling over a striped tent while a family walks past on the path](./06.jpg)
+*Site mock-up*
+
+![Mock-up drawing of the octopus standing among the trees, arms curling down to the grass, tents behind it](./07.jpg)
+*Site mock-up*
+
+![Ink drawing of the octopus frame, noting nine parts across thirty feet — eight arms at twenty feet and a head ten by five — with the head drawn as hoops and ribs, arms skinned in stretched white plastic bags and suckers cut from bottle bottoms](./08.jpg)
+*Concept sketch and build plan*
+
+</div>
