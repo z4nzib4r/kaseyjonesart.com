@@ -29,6 +29,10 @@ I had intended to outline my body every day for the entire duration of the pregn
 
 ![The scroll installed in the gallery, the red paint running down into the flowers at its foot](./05.jpg)
 
+![The scroll running down the wall and out across the carpet, the contour drawings above the red and the flowers laid across its foot](./15.jpg)
+
+![Closer down the scroll, the red running in long streaks through the scattered white flowers](./16.jpg)
+
 ![A sheet of overlapping contour drawings, each outline labeled with its day, from Day 50 through Day 56](./06.jpg)
 
 ![Overlapping contours filling the sheet, Day 57 through Day 63](./07.jpg)
