@@ -20,6 +20,16 @@ The smack of jellies represented a new species of bioluminescent jellyfish that 
 
 With help from the Ohio Valley Discovery Museum, I was able to build twelve jelly bells, and from those bells participants were encouraged to add tentacles using recycled plastic bags. Festival goers also had the opportunity to help paint the 'paint by number' mural.
 
+![Kasey Jones lying back in a deep pile of empty gallon jugs, grinning up at the camera](./07.jpg)
+
+<div class="photo-pair">
+
+![A finished bell on the museum floor, a dome built from hundreds of gallon jugs, a chalkboard sign for the Ohio Valley Museum of Discovery beside it](./05.jpg)
+
+![Kasey Jones outdoors holding a finished bell above her head, the dome of jugs hiding her face](./06.jpg)
+
+</div>
+
 ![Looking straight up into the underside of a bell, packed with the necks of gallon jugs](./02.jpg)
 
 ![Festival goers and Baltimore police officers helping tie plastic bag tentacles onto a bell](./04.jpg)

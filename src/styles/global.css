@@ -344,6 +344,35 @@ body.bare main {
   }
 }
 
+/* Two photos side by side in a work page, each keeping its own proportions.
+   Useful when a tall shot would otherwise run the full width of the article. */
+.article-body .photo-pair {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin: 2.75rem 0;
+  align-items: start;
+}
+
+.article-body .photo-pair p,
+.article-body .photo-pair p:has(> img) {
+  margin: 0;
+  max-width: none;
+}
+
+.article-body .photo-pair img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 720px) {
+  .article-body .photo-pair {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+}
+
 /* A row of small concept sketches, each with its caption beneath it. */
 .article-body .sketch-row {
   display: grid;
