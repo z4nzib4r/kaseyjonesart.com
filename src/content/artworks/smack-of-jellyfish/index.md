@@ -35,3 +35,6 @@ With help from the Ohio Valley Discovery Museum, I was able to build twelve jell
 ![Festival goers and Baltimore police officers helping tie plastic bag tentacles onto a bell](./04.jpg)
 
 The installations drew in over 10,000 people, with more than 2,000 people participating in the creation of the work.
+
+![Hand-drawn site plan of the installation, three tents around a central pole with cable lines running out to them and the jellies hung along the cables, trees and the mural marked around the edges](./08.jpg)
+*Concept sketch of the layout.*
