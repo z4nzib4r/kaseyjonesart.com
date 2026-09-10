@@ -35,6 +35,8 @@ The project was intended to raise awareness about how our plastic waste is affec
 
 The shark was later transformed into a kinetic sculpture for the Kinetic Sculpture Race in Baltimore, hosted by the American Visionary Art Museum.
 
+![The kinetic shark side on across a brick plaza, its three bodies riding on bottle-shaped floats above the bicycle frames](./15.jpg)
+
 ![The kinetic version on the street, riders pedalling it forward](./02.jpg)
 
 ![The kinetic shark from the side, its jaws open, moving down the road](./03.jpg)
