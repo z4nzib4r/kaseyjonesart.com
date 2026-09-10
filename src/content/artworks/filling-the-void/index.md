@@ -15,3 +15,7 @@ cover: ./cover.jpg
 ![The second painting in its dark frame, black and teal breaking into white foam over fields of plum and red](./03.jpg)
 
 ![Detail of the second painting, white foam spattered black over a bed of plum and rust](./04.jpg)
+
+![The third painting in its dark frame, turquoise blooming across a near-black ground with veins of silver and blue](./05.jpg)
+
+![Detail of the third painting, the turquoise feathering out into the dark and pooling into small bright islands](./06.jpg)
