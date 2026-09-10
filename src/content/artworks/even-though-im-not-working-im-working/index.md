@@ -10,3 +10,11 @@ cover: ./cover.jpg
 *One of the props from the photographs.*
 
 ![A tall stack of folded laundry, every piece painted gold, sitting on a white plinth](./03.jpg)
+
+<div class="photo-pair">
+
+![Detail of the stack, the gilded folds and hems layered one on another](./04.jpg)
+
+![Closer still, the gold paint pooling in the creases and catching the light along a folded edge](./05.jpg)
+
+</div>
