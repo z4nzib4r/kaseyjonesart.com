@@ -20,6 +20,8 @@ Passers-by at the Inner Harbor were invited to weave bags into the shell as the 
 
 ![The finished turtle raised on steel stands on the grass, festival tents behind it](./04.jpg)
 
+![The finished turtle on blue steel stands on the Inner Harbor plaza, visitors looking on and the glass wall of the National Aquarium behind it](./05.jpg)
+
 <iframe class="work-video" style="aspect-ratio: 16 / 9; height: auto; border: 0;" src="https://www.youtube.com/embed/wbinQpfAEnM" title="Kasey Jones on Calypso" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 
 *Talking about the project.*
