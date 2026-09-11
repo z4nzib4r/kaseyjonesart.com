@@ -26,12 +26,12 @@ cover: ./cover.jpg
 
 </div>
 
-![Two square canvases hung side by side, a woman on the left and a bearded man on the right, each breathing a pale plume toward the other across the gap](./05.jpg)
+![Two square canvases hung side by side, each a face in profile with eyes closed and mouth to a pale breast: a woman against gold on the left, a bearded man against white on the right](./05.jpg)
 
 <div class="photo-pair">
 
-![Detail of the left canvas, the mouth and cheek in pinks and yellow](./06.jpg)
+![Detail of the left canvas, the nose and pink lips in profile against bright yellow, the pale curve of the breast filling the left of the frame](./06.jpg)
 
-![Detail of the right canvas, the beard and nose against a bank of white feathers worked into the surface](./07.jpg)
+![Detail of the right canvas, the bearded chin and nose against thick white paint worked into swirls](./07.jpg)
 
 </div>
