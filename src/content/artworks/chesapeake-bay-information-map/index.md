@@ -3,6 +3,7 @@ title: Chesapeake Bay Information Map
 year: 2019
 location: National Aquarium, Baltimore, MD
 cover: ./cover.jpg
+hidden: true
 ---
 
 [National Aquarium](https://aqua.org/)

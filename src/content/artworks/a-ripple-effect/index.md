@@ -13,8 +13,6 @@ Commissioned by the National Aquarium for Artscape, *A Ripple Effect* is a low-r
 
 I used more than 125,000 straws, hot-glued to a plexiglass and wood frame and lit with programmable LED lights.
 
-Alongside it I painted the [Chesapeake Bay Information Map](/work/chesapeake-bay-information-map/), a mural of the bay and its watersheds for the same commission.
-
 ![The whole relief in black and white, the Chesapeake Bay and its rivers branching across the straw surface](./05.jpg)
 
 ![Detail of the straw surface, the cut ends forming the ridges and channels of the bay](./01.jpg)

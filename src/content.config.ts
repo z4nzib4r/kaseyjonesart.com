@@ -24,6 +24,9 @@ const artworks = defineCollection({
       location: z.string().optional(),
       // Lower numbers appear first in the gallery; ties fall back to newest year.
       order: z.number().default(999),
+      // Set to true to take a work off the site without deleting it: no page is
+      // built and it drops out of every gallery. Remove the line to bring back.
+      hidden: z.boolean().default(false),
     }),
 });
 

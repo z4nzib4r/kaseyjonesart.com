@@ -20,6 +20,7 @@ const groupOf = (id: string) =>
         : 'installations';
 
 const artworks = (await getCollection('artworks'))
+  .filter((work) => !work.data.hidden)
   .filter((work) => !only || groupOf(work.id) === only)
   .sort((a, b) => a.data.order - b.data.order || b.data.year - a.data.year);
 
