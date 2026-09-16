@@ -8,7 +8,7 @@ cover: ./cover.jpg
 
 Commissioned by Athens County Public Libraries and the Chauncey Public Library. Layered green hills run the length of the building's side wall and turn the corner, an orange sun sitting low above the ridgeline.
 
-Volunteers of all ages helped paint it in.
+Volunteers of all ages helped paint it in. Every shape was outlined on the wall and then masked off with tape and newspaper before any brushes came out, so an untrained hand could fill a whole field of colour and still leave a clean edge behind. It meant the whole community could put paint on a permanent work of art.
 
 <div class="process-row">
 
