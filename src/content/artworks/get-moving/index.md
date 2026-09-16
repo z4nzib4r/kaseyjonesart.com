@@ -6,7 +6,7 @@ location: Ohio University College of Osteopathic Medicine, Athens, OH
 cover: ./cover.jpg
 ---
 
-*Get Moving* is a laser-cut sheet metal installation in the stairwells of the Ohio University College of Osteopathic Medicine, made to encourage people to take the stairs. Figures run up the wall alongside the steps, shifting from dark reds and blues into yellow and green as they climb.
+*Get Moving* is a laser-cut sheet metal installation in the stairwells of the Ohio University College of Osteopathic Medicine, made to encourage people to take the stairs. The figures are installed throughout the building's four-level stairwell, running up the wall alongside the steps and shifting from dark reds and blues into yellow and green as they climb.
 
 ![The stairwell seen from a landing, cut metal figures striding across the white tiled wall above and below the orange handrails](./01.jpg)
 
