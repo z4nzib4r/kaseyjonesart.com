@@ -2,6 +2,7 @@
 title: Fuegito
 year: 2021
 cover: ./cover.jpg
+hidden: true
 ---
 
 *Fuegito* — my little fire. A body of work developed over 2019–2021.

@@ -2,6 +2,7 @@
 title: Beauty & the Blood
 year: 2018
 cover: ./cover.jpg
+hidden: true
 ---
 
 This body of work was created in response to the lack of education I received as a child about menstruation, and the negative stigma that surrounds it. Creating a culture that understands menstruation — and, in turn, women and girls — begins with honest education for both girls and boys.

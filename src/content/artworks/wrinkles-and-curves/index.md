@@ -3,6 +3,7 @@ title: Wrinkles and Curves
 year: 2017
 materials: Digital photography
 cover: ./cover.jpg
+hidden: true
 ---
 
 *Wrinkles and Curves: The Incessant Critique of Her Physique*

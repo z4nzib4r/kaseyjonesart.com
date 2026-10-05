@@ -3,6 +3,7 @@ title: Working Mother Suit
 year: 2016
 materials: Breast milk storage bags, digital photography
 cover: ./cover.jpg
+hidden: true
 ---
 
 I created this series to bring awareness to the harsh realities of what it takes to be a working mother, especially when caring for an infant. Our system does not support new mothers or families during this transitional phase. It was my duty as a social artist to shed light on how taxing it is on our physical and mental health.

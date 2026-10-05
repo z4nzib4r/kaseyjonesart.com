@@ -4,6 +4,7 @@ year: 2014
 materials: Mixed media installation
 location: Maryland Institute College of Art, Baltimore, MD
 cover: ./cover.jpg
+hidden: true
 ---
 
 *Humanity vs. Nature* was my thesis show for the MFA in Community Art at the Maryland Institute College of Art.

@@ -3,6 +3,7 @@ title: That Mama Give
 year: 2018
 yearLabel: 2017–2018
 cover: ./cover.jpg
+hidden: true
 ---
 
 *That Mama Give* is a body of work made over 2017 and 2018.

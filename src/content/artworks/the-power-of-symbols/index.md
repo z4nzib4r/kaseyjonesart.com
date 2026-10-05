@@ -3,6 +3,7 @@ title: The Power of Symbols
 year: 2014
 materials: Mixed media sculpture and 2D work
 cover: ./cover.jpg
+hidden: true
 ---
 
 *The Power of Symbols* challenges the power symbols have on our psyche — specifically, the power of religious symbols. I power-clashed heavily loaded imagery with Christian imagery to make my viewers think about what we value as a society: perhaps how we value religion and money, a human construct, over the preservation of planet earth.
